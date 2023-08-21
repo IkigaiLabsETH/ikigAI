@@ -15,6 +15,7 @@ type ChatProps = {
     generationMessage?: boolean;
     typeChat?: string;
     children?: React.ReactNode;
+    onAddMessage: (message: string) => void;
 };
 
 const Chat = ({
@@ -23,6 +24,7 @@ const Chat = ({
     generationMessage,
     typeChat,
     children,
+    onAddMessage,
 }: ChatProps) => {
     const isTablet = useMediaQuery({
         query: "(max-width: 1179px)",
@@ -83,6 +85,8 @@ const Chat = ({
                         value={message}
                         onChange={(e: any) => setMessage(e.target.value)}
                         generationMessage={generationMessage}
+                        placeholder="Yo stoopid"
+                        onConfirm={() => onAddMessage(message)}
                         // image="/images/file-name.jpg"
                         // files={[
                         //     "file-name.pdf",

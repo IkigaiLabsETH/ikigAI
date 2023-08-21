@@ -17,6 +17,7 @@ type MessageProps = {
     image?: string;
     files?: any;
     hideButtonAdd?: boolean;
+    onConfirm: () => void;
 };
 
 const Message = ({
@@ -28,6 +29,7 @@ const Message = ({
     image,
     files,
     hideButtonAdd,
+    onConfirm,
 }: MessageProps) => {
     return (
         <div
@@ -115,7 +117,7 @@ const Message = ({
                                     />
                                 </button>
                             ) : (
-                                <button className="btn-gradient-stroke btn-square btn-medium absolute right-4 bottom-3 md:right-2">
+                                <button className="btn-gradient-stroke btn-square btn-medium absolute right-4 bottom-3 md:right-2" onClick={onConfirm}>
                                     <Icon
                                         className="w-6 h-6 fill-n-1"
                                         name="arrow-right"
