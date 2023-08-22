@@ -28,7 +28,7 @@ const images = [
 const PhotoGeneratorPage = () => {
     return (
         <Layout>
-            <Chat background="/images/bg-3.jpg" typeChat="photo-generator">
+            <Chat background="/images/bg-3.jpg" typeChat="photo-generator" onAddMessage={() => {}}>
                 <Question content="3D Hi Fi Retro Futuristic Character, Blender, Dribbble, Behance, --ar 1:1 --q 2 --s 750" />
                 <Answer
                     content="Boom! Your image is generated with Midjourney with prompt:"

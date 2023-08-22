@@ -10,7 +10,7 @@ import SocialPost from "@/components/SocialPost";
 const SocialPage = () => {
     return (
         <Layout>
-            <Chat background="/images/bg-4.jpg" typeChat="social">
+            <Chat background="/images/bg-4.jpg" typeChat="social" onAddMessage={() => {}}>
                 <Question
                     content={
                         <>

@@ -1,3 +1,5 @@
+"use client"
+
 import { useState, createContext } from "react";
 import { useMediaQuery } from "react-responsive";
 import Image from "@/components/Image";

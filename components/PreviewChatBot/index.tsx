@@ -90,6 +90,7 @@ const PreviewChatBot = ({}: PreviewChatBotProps) => {
                     value={message}
                     onChange={(e: any) => setMessage(e.target.value)}
                     hideButtonAdd
+                    onConfirm={() => {}}
                 />
             </Modal>
         </>

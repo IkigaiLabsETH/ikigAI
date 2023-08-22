@@ -1,5 +1,4 @@
-import React, { PropsWithChildren, useCallback, useEffect } from "react";
-
+import React, { PropsWithChildren, useCallback, useEffect, useMemo } from "react";
 
 import {
   clearHistory,
@@ -9,13 +8,13 @@ import {
   History,
   deleteConversationFromHistory,
   updateConversation,
-} from "../utils/History"
+} from "../utils/History";
 import {
   defaultConfig,
   OpenAIChatMessage,
   OpenAIConfig,
   OpenAISystemMessage,
-  OpenAIChatModels
+  OpenAIChatModels,
 } from "../utils/OpenAI";
 import { useRouter } from "next/router";
 
@@ -75,9 +74,6 @@ const OpenAIContext = React.createContext<{
 }>(defaultContext);
 
 export default function OpenAIProvider({ children }: PropsWithChildren) {
-  const router = useRouter();
-
-export default function OpenAIProvider({ children }: PropsWithChildren) {
   // const { token } = useAuth();
   const token = process.env.NEXT_PUBLIC_OPENAI_API_KEY;
   const router = useRouter();
@@ -100,6 +96,7 @@ export default function OpenAIProvider({ children }: PropsWithChildren) {
   useEffect(() => {
     setConversations(getHistory());
   }, []);
+
 
   const updateSystemMessage = (content: string) => {
     setSystemMessage({
@@ -179,11 +176,11 @@ export default function OpenAIProvider({ children }: PropsWithChildren) {
     setConversations((prev) => ({ ...prev, [id]: conversation }));
 
     if (router.pathname === CHAT_ROUTE) router.push(`/chat/${id}`);
-  }, [conversationId, messages, router]);
+  }, [config, conversationName, systemMessage, conversationId, messages, router]);
 
   useEffect(() => {
     handleStoreConversation();
-  }, [messages, systemMessage, config]);
+  }, [handleStoreConversation, messages, systemMessage, config]);
 
   const loadConversation = (id: string, conversation: Conversation) => {
     setConversationId(id);
@@ -204,7 +201,7 @@ export default function OpenAIProvider({ children }: PropsWithChildren) {
     setConversations({});
 
     router.push("/");
-  }, []);
+  }, [router]);
 
   const clearConversation = () => {
     setMessages([]);
@@ -353,9 +350,6 @@ export default function OpenAIProvider({ children }: PropsWithChildren) {
       removeMessage,
       conversationId,
       conversationName,
-      updateConversationName,
-      deleteConversation,
-      loadConversation,
       clearConversation,
       conversations,
       clearConversations,
@@ -364,6 +358,9 @@ export default function OpenAIProvider({ children }: PropsWithChildren) {
       updateConfig,
       submit,
       error,
+      deleteConversation: () => {},
+      updateConversationName: () => {},
+      loadConversation: () => {},
     }),
     [
       systemMessage,
@@ -374,10 +371,13 @@ export default function OpenAIProvider({ children }: PropsWithChildren) {
       submit,
       conversationId,
       conversations,
+      conversationName,
       clearConversations,
       error,
     ]
   );
+
+
 
   return (
     <OpenAIContext.Provider value={value}>{children}</OpenAIContext.Provider>

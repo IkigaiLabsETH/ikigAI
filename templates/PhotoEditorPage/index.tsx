@@ -1,5 +1,3 @@
-"use client";
-
 import Layout from "@/components/Layout";
 import Chat from "@/components/Chat";
 import Question from "@/components/Question";
@@ -13,6 +11,7 @@ const PhotoEditorPage = () => {
                 background="/images/bg-3.jpg"
                 typeChat="photo-editor"
                 generationMessage
+                onAddMessage={() => {}}
             >
                 <Question
                     content="Retouch this photo"

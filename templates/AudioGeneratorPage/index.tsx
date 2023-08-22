@@ -11,7 +11,7 @@ import VideoPlayer from "@/components/VideoPlayer";
 const AudioGeneratorPage = () => {
     return (
         <Layout>
-            <Chat background="/images/bg-4.jpg" typeChat="audio">
+            <Chat background="/images/bg-4.jpg" typeChat="audio" onAddMessage={() => {}}>
                 <Question
                     content={
                         <>

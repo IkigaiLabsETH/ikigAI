@@ -9,7 +9,7 @@ import Video from "@/components/Video";
 const VideoGenerationPage = () => {
     return (
         <Layout>
-            <Chat background="/images/bg-2.jpg" typeChat="video">
+            <Chat background="/images/bg-2.jpg" typeChat="video" onAddMessage={() => {}}>
                 <Question
                     content={
                         <>

@@ -13,7 +13,7 @@ import { statistics } from "@/mocks/statistics";
 const StatisticsPage = () => {
     return (
         <Layout>
-            <Chat background="/images/bg-4.jpg">
+            <Chat background="/images/bg-4.jpg" onAddMessage={() => {}}>
                 <Question
                     content={
                         <>
@@ -22,18 +22,18 @@ const StatisticsPage = () => {
                             page:&nbsp;
                             <a
                                 className="font-semibold text-primary-3 break-all"
-                                href="https://dribbble.com/tranmautritam"
+                                href="https://dribbble.com/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                https://dribbble.com/tranmautritam
+                                https://dribbble.com
                             </a>
                         </>
                     }
                 >
                     <PreviewPost
                         title="Dribbble"
-                        content="Tran Mau Tri Tam – Dribbble Porfile"
+                        content="GM – Dribbble Portfolio"
                         image="/images/dribbble-post-1.jpg"
                     />
                 </Question>
@@ -46,7 +46,7 @@ const StatisticsPage = () => {
                             className="flex-1 p-10 gradient-1 rounded-[1.25rem] 2xl:p-6 lg:px-4 md:px-8 md:py-5"
                             image="/images/eye.svg"
                             title="Shot view"
-                            value="2.7M"
+                            value="2.7 ETH"
                         />
                         <StatisticsItem
                             className="flex-1 p-10 gradient-3 rounded-[1.25rem] 2xl:p-6 lg:px-4 md:px-8 md:py-5"
@@ -58,7 +58,7 @@ const StatisticsPage = () => {
                             className="flex-1 p-10 gradient-4 rounded-[1.25rem] 2xl:p-6 lg:px-4 md:px-8 md:py-5"
                             image="/images/heart.svg"
                             title="Likes"
-                            value="960,000"
+                            value="960,420"
                         />
                     </div>
                     <Chart className="-ml-7 py-6 md:py-3" items={statistics} />
