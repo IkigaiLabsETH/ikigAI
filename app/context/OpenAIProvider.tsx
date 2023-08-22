@@ -1,5 +1,6 @@
 import React, { PropsWithChildren, useCallback, useEffect } from "react";
 
+
 import {
   clearHistory,
   Conversation,
@@ -16,7 +17,7 @@ import {
   OpenAISystemMessage,
   OpenAIChatModels
 } from "../utils/OpenAI";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/router";
 
 const CHAT_ROUTE = "/";
 
@@ -72,6 +73,9 @@ const OpenAIContext = React.createContext<{
   loading: boolean;
   error: string;
 }>(defaultContext);
+
+export default function OpenAIProvider({ children }: PropsWithChildren) {
+  const router = useRouter();
 
 export default function OpenAIProvider({ children }: PropsWithChildren) {
   // const { token } = useAuth();
@@ -175,7 +179,7 @@ export default function OpenAIProvider({ children }: PropsWithChildren) {
     setConversations((prev) => ({ ...prev, [id]: conversation }));
 
     if (router.pathname === CHAT_ROUTE) router.push(`/chat/${id}`);
-  }, [conversationId, messages]);
+  }, [conversationId, messages, router]);
 
   useEffect(() => {
     handleStoreConversation();

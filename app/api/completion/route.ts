@@ -3,7 +3,14 @@ import { defaultConfig, getOpenAICompletion } from "../../utils/OpenAI";
 import { OpenAIRequest } from "../../utils/OpenAI";
 
 
-
+export const config = {
+  api: {
+    externalResolver: true,
+  },
+  segment: {
+    runtime: 'edge',
+  },
+}
 
 interface Response {
   content?: string;
