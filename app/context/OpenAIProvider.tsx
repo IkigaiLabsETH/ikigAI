@@ -175,7 +175,7 @@ export default function OpenAIProvider({ children }: PropsWithChildren) {
     setConversationId(id);
     setConversations((prev) => ({ ...prev, [id]: conversation }));
 
-    if (router.pathname === CHAT_ROUTE) router.push(`/chat/${id}`);
+    // if (router.pathname === CHAT_ROUTE) router.push(`/chat/${id}`);
   }, [config, conversationName, systemMessage, conversationId, messages, router]);
 
   useEffect(() => {
