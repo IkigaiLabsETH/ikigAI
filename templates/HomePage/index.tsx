@@ -44,7 +44,7 @@ const HomePage = () => {
                 <div className="flex mb-13 lg:relative lg:block lg:pb-20">
                     <div className="grow">
                         <div className="mb-5 text-base-2 text-n-4">
-                            Current data about NFTs, Web3, and Gen Art.
+                            Info about NFTs, Web3, and Gen Art.
                         </div>
                         <Users
                             className="mb-8"
