@@ -1,3 +1,5 @@
+"use client";
+
 import Layout from "@/components/Layout";
 import Chat from "@/components/Chat";
 import Question from "@/components/Question";
