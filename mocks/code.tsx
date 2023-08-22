@@ -5,7 +5,14 @@ const htmlCode = `<form>
     <progress id="progress-bar" max="100" value="0"></progress>
 </form>`;
 
-const cssCode = `.welcome-message {
+const typescriptCode = `<form>
+    <label for="file-upload">Choose a file:</label>
+    <input type="file" id="file-upload" name="file-upload">
+    <button type="submit">Upload</button>
+    <progress id="progress-bar" max="100" value="0"></progress>
+</form>`;
+
+const tailwindcssCode = `.welcome-message {
     text-align: center;
     margin-top: 50px;
 }
@@ -81,21 +88,33 @@ const pythonCode = `def fibonacci(n):
 export const itemsCode = [
     {
         id: "0",
-        title: "HTML",
-        language: "html",
-        value: htmlCode,
+        title: "TYPESCRIPT",
+        language: "typescript",
+        value: typescriptCode,
     },
     {
         id: "1",
         title: "CSS",
         language: "css",
-        value: cssCode,
+        value: tailwindcssCode,
     },
     {
         id: "2",
         title: "Javascript",
         language: "javascript",
         value: jsCode,
+    },
+    {
+        id: "3",
+        title: "P5js",
+        language: "p5js",
+        value: jsCode,
+    },
+    {
+        id: "5",
+        title: "HTML",
+        language: "html",
+        value: htmlCode,
     },
 ];
 
@@ -108,18 +127,18 @@ export const code = {
 export const actions = [
     {
         id: "0",
-        content: "Tell me more",
+        content: "Tell me what this code does",
     },
     {
         id: "1",
-        content: "Can you explain how the JavaScript function works?",
+        content: "Can you explain how we can optimize this code?",
     },
     {
         id: "2",
-        content: "Is there a way to display a progress bar during the upload?",
+        content: "Is there a way to display a rendering effect?",
     },
     {
         id: "3",
-        content: "How can I add more fields to the form?",
+        content: "How can I add noise with a flow fields alorithm?",
     },
 ];

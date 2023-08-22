@@ -1,27 +1,27 @@
 export const chatActions = [
     {
         id: "0",
-        title: "Improve writing",
+        title: "Optimize style",
     },
     {
         id: "1",
-        title: "Translate",
+        title: "Add comments",
     },
     {
         id: "2",
-        title: "Change tone",
+        title: "Change color palette",
     },
     {
         id: "3",
-        title: "Fix spelling and grammar",
+        title: "Fix this bug",
     },
     {
         id: "4",
-        title: "Improve writing",
+        title: "Improve P5js script",
     },
     {
         id: "5",
-        title: "Improve writing",
+        title: "Refactor this code",
     },
 ];
 
@@ -51,14 +51,6 @@ export const directions = [
         url: "/code-generator",
     },
     {
-        id: "3",
-        title: "Education feedback",
-        image: "/images/trophy.svg",
-        color: "#7C878E",
-        type: "super",
-        url: "/education-feedback",
-    },
-    {
         id: "4",
         title: "Video generator",
         image: "/images/video.svg",
@@ -91,14 +83,6 @@ export const directions = [
         url: "/code-generator",
     },
     {
-        id: "8",
-        title: "Education feedback",
-        image: "/images/trophy.svg",
-        color: "#7C878E",
-        type: "high",
-        url: "/education-feedback",
-    },
-    {
         id: "9",
         title: "Photo generator",
         image: "/images/photo.svg",
@@ -115,14 +99,6 @@ export const directions = [
         url: "/video-generation",
     },
     {
-        id: "11",
-        title: "Education feedback",
-        image: "/images/trophy.svg",
-        color: "#7C878E",
-        type: "medium",
-        url: "/education-feedback",
-    },
-    {
         id: "12",
         title: "Code generator",
         image: "/images/code.svg",
@@ -130,20 +106,12 @@ export const directions = [
         type: "low",
         url: "/code-generator",
     },
-    {
-        id: "13",
-        title: "Education feedback",
-        image: "/images/trophy.svg",
-        color: "#7C878E",
-        type: "low",
-        url: "/education-feedback",
-    },
 ];
 
 export const chatRequest = [
     {
         id: "0",
-        title: "Upload form in HTML, CSS and JS",
+        title: "Upload form in Typescript, TailwindCCS, and React",
         image: "/images/icons/code-circle.svg",
         lastModified: "1 min ago",
         created: "5 mins ago",
@@ -158,7 +126,7 @@ export const chatRequest = [
     },
     {
         id: "1",
-        title: "How do I create a website",
+        title: "How do I deploy a smart contract with Thirdweb Create",
         image: "/images/icons/site.svg",
         lastModified: "3 min ago",
         created: "10 mins ago",
@@ -173,7 +141,7 @@ export const chatRequest = [
     },
     {
         id: "2",
-        title: "Can you explain the concept of artificial intelligence?",
+        title: "Can you explain the concept of Flow Fields in a Fidenza?",
         image: "/images/icons/message-chat-circle.svg",
         lastModified: "10 min ago",
         created: "35 mins ago",
@@ -188,7 +156,7 @@ export const chatRequest = [
     },
     {
         id: "3",
-        title: "Marketing video generation",
+        title: "Art video generation",
         image: "/images/icons/video-recorder.svg",
         lastModified: "45 min ago",
         created: "1 hour ago",
@@ -203,7 +171,7 @@ export const chatRequest = [
     },
     {
         id: "4",
-        title: "Upload form in HTML, CSS and JS",
+        title: "Upload P5js code",
         image: "/images/icons/code-snippet.svg",
         lastModified: "1 hour ago",
         created: "5 hour ago",
@@ -221,49 +189,43 @@ export const chatRequest = [
 export const historyChat = [
     {
         id: "0",
-        title: "Business man talking avatar",
+        title: "Curator talking about his Gen Art",
         color: "#BE87FF",
         url: "/video-generation",
     },
     {
         id: "1",
-        title: "Retouch photo",
+        title: "Retouch cover photo for ikigAI",
         color: "#FF66C2",
         url: "/photo-editor",
     },
     {
         id: "2",
-        title: "Text-to-speech voice",
+        title: "Create Voice Over Media Files",
         color: "#1F82FF",
         url: "/audio-generator",
     },
     {
-        id: "3",
-        title: "Education feedback",
-        color: "#FF6C3E",
-        url: "/education-feedback",
-    },
-    {
         id: "4",
-        title: "3D Hi Fi Retro Futuristic Character",
+        title: "Cyberpunk, IMAX, ARRI, Velvia,",
         color: "#735FFA",
         url: "/photo-generator",
     },
     {
         id: "5",
-        title: "Python function",
+        title: "P5js flow fields",
         color: "#4BAB71",
         url: "/code-generator",
     },
     {
         id: "6",
-        title: "Social media post",
+        title: "Content Creation for X",
         color: "#FF6C3E",
         url: "/social",
     },
     {
         id: "7",
-        title: "Statistics Dribbble portfolio",
+        title: "Web3 Market Stats",
         color: "#FF66C2",
         url: "/statistics",
     },
