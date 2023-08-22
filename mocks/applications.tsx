@@ -25,13 +25,13 @@ export const applications = [
     },
     {
         id: "4",
-        title: "UI8",
+        title: "GM",
         version: "version 16.32.480",
         image: "/images/ui8.svg",
     },
     {
         id: "5",
-        title: "Duolingo",
+        title: "Degen",
         version: "version 16.32.480",
         image: "/images/duolingo.svg",
     },

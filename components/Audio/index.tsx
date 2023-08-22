@@ -79,13 +79,10 @@ const Audio = ({}: AudioProps) => {
                     <div className="border border-n-5 rounded-xl">
                         <div className="p-3 text-n-1">
                             <span className="text-primary-4">
-                                Synapse is an AI chat app UI Kit designed by the
-                                UI8 Team. It boasts a stunning design and
-                                powerful features, making it an ideal choice for
-                                developers looking to build chat applications
-                                with ease|
+                                AI chat app UI Kit boasts a fresh design and
+                                powerful features|
                             </span>
-                            . With Synapse, you can quickly create chat
+                            . With ikigAI, you can quickly create chat
                             interfaces that are both intuitive and visually
                             appealing, thanks to its comprehensive set of
                             pre-designed components and customizable elements.

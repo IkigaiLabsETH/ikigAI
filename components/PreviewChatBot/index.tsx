@@ -43,7 +43,7 @@ const PreviewChatBot = ({}: PreviewChatBotProps) => {
                             alt=""
                         />
                     </div>
-                    <div className="mb-6 text-h4">UI8 Marketplace</div>
+                    <div className="mb-6 text-h4">GM Marketplace</div>
                     <div className="h-0.25 mb-8 -mx-10 bg-n-3 md:-mx-5 md:mb-5 dark:bg-n-5"></div>
                     <div className="flex">
                         <div className="relative shrink-0 w-8 h-8 p-1.5 bg-n-7 rounded-full">

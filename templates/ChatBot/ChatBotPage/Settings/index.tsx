@@ -26,10 +26,10 @@ const bots = [
 ];
 
 const CreateChatBotPage = () => {
-    const [name, setName] = useState<string>("UI8 Bot");
+    const [name, setName] = useState<string>("AI Bot");
     const [bot, setBot] = useState<any>(bots[0]);
     const [message, setMessage] = useState<string>(
-        "Hello, I’m Synapse a large language model designed to answer questions and provide information on a wide range of topics. How can I assist you today?"
+        "Hello, I’m a large language model designed to answer questions and provide information on a wide range of topics. How can I assist you today?"
     );
     const [prompt, setPrompt] = useState<string>(
         "What is the capital of France Can you explain the concept of machine learning What is the weather forecast for tomorrow in New York City"
@@ -46,7 +46,7 @@ const CreateChatBotPage = () => {
                     <Field
                         className="w-[calc(50%-0.75rem)] mx-1.5 md:w-full md:mx-0 md:mb-3"
                         label="Bot name"
-                        placeholder="I.g. UI8 Marketplace"
+                        placeholder="I.g. ikigAI Marketplace"
                         value={name}
                         onChange={(e: any) => setName(e.target.value)}
                         required
@@ -103,7 +103,7 @@ const CreateChatBotPage = () => {
                 <Field
                     className="mb-12 md:mb-8"
                     label="Suggest prompts"
-                    placeholder="I.g. What is Synapse UI kit"
+                    placeholder="I.g. What is the UI kit"
                     note="Enter each message in a new line."
                     value={prompt}
                     onChange={(e: any) => setPrompt(e.target.value)}
