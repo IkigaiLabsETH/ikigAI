@@ -8,6 +8,9 @@ export const config = {
   },
 };
 
+export const runtime = 'nodejs'
+// 'edge' | 'nodejs'
+
 interface Response {
   content?: string;
   error?: string;
