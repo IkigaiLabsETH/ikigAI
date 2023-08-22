@@ -36,7 +36,7 @@ const ChatExport = ({}: ChatExportProps) => {
         },
         {
             id: "1",
-            title: "ChatGPT 3",
+            title: "ChatGPT 3.5",
             conversations: 128,
             image: "/images/logo-1.svg",
             color: "#4BAB71",
@@ -44,7 +44,7 @@ const ChatExport = ({}: ChatExportProps) => {
         },
         {
             id: "2",
-            title: "Coverso",
+            title: "LiveTheLife",
             conversations: 64,
             image: "/images/logo-1.svg",
             color: "#FF66C2",
@@ -52,7 +52,7 @@ const ChatExport = ({}: ChatExportProps) => {
         },
         {
             id: "3",
-            title: "Botman",
+            title: "Ikigai",
             conversations: 32,
             image: "/images/logo-1.svg",
             color: "#0C018C",
@@ -60,7 +60,7 @@ const ChatExport = ({}: ChatExportProps) => {
         },
         {
             id: "4",
-            title: "Talky",
+            title: "Labs",
             conversations: 80,
             image: "/images/logo-4.svg",
             color: "#FFC224",
@@ -68,7 +68,7 @@ const ChatExport = ({}: ChatExportProps) => {
         },
         {
             id: "5",
-            title: "UI8 Marketplace (Custom)",
+            title: "LTL Marketplace (Custom)",
             conversations: 512,
             image: "/images/logo-1.svg",
             color: "#FF6C3E",
@@ -76,7 +76,7 @@ const ChatExport = ({}: ChatExportProps) => {
         },
         {
             id: "6",
-            title: "ChatGPT 4.1",
+            title: "ChatGPT 4.20",
             conversations: 1024,
             image: "/images/logo-1.svg",
             color: "#735FFA",
