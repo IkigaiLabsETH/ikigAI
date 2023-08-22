@@ -3,14 +3,7 @@ import { defaultConfig, getOpenAICompletion } from "../../utils/OpenAI";
 import { OpenAIRequest } from "../../utils/OpenAI";
 
 
-export const config = {
-  api: {
-    bodyParser: false,
-    segment: {
-      runtime: "edge",
-    },
-  },
-}
+export const runtime = 'edge'
 
 interface Response {
   content?: string;
