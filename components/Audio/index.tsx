@@ -88,7 +88,7 @@ const Audio = ({}: AudioProps) => {
                             pre-designed components and customizable elements.
                             Whether you&apos;re building a messaging app, a
                             customer support platform, or any other kind of
-                            chat-based application, Synapse has everything you
+                            chat-based application, it has everything you
                             need to get started.
                         </div>
                         <div className="flex justify-between items-center p-3 border-t border-n-5 md:block">
