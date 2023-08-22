@@ -1,5 +1,5 @@
 import { OpenAIChatMessage, OpenAIConfig, OpenAISystemMessage } from "./OpenAI";
-import { v4 as uuidv4 } from "uuid";
+// import { v4 as uuidv4 } from "uuid";
 
 const HISTORY_KEY = "pg-history";
 
@@ -18,7 +18,7 @@ export type History = Record<string, Conversation>;
 // Store conversation in local storage
 export const storeConversation = (id: string, conversation: Conversation) => {
   const history = getHistory();
-  id = id || uuidv4();
+  // id = id || uuidv4();
   localStorage.setItem(
     HISTORY_KEY,
     JSON.stringify({
