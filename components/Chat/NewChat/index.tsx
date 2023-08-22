@@ -41,11 +41,10 @@ const NewChat = ({}: NewChatProps) => {
             <div className="max-w-[37.5rem] mx-auto 4xl:max-w-[34.5rem]">
                 <div className="mb-12 text-center md:mb-8">
                     <div className="mb-2 text-h2 lg:text-h3 md:max-w-[16rem] md:mx-auto">
-                        Unlock the power of AI
+                        IKIGAI LABS XYZ
                     </div>
                     <div className="text-body-1 text-n-4">
-                        Meet the synapse of our ai chat app revolutionizing
-                        conversations
+                        Ask Me Anything about Ikigai
                     </div>
                 </div>
                 <div className="flex justify-between items-center mb-3">

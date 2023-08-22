@@ -116,3 +116,17 @@
         @apply bg-primary-3 text-n-1 dark:text-n-1;
     }
 }
+
+
+body {
+    font-family: "Epilogue", sans-serif;
+  }
+  
+  h1 {
+    font-family: "Satoshi", sans-serif;
+  }
+
+  h2 {
+    font-family: "Boska", sans-serif;
+  }
+

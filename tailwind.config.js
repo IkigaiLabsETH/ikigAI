@@ -127,12 +127,17 @@ module.exports = {
                 sans: ["var(--font-archivo)", ...fontFamily.sans],
                 inter: "var(--font-inter)",
                 code: "var(--font-source-code-pro)",
+                boska: ["Boska", ...fontFamily.sans],
+                epilogue: ["Epilogue", ...fontFamily.sans],
+                satoshi: ["Satoshi", ...fontFamily.sans],
             },
             fontSize: {
+                
                 0: ["0px", "0px"],
                 h1: [
                     "4rem",
                     {
+                        fontFamily: "Satoshi",
                         lineHeight: "4.5rem",
                         fontWeight: "600",
                         letterSpacing: "-0.01em",
@@ -141,6 +146,7 @@ module.exports = {
                 h2: [
                     "3rem",
                     {
+                        fontFamily: "Satoshi",
                         lineHeight: "3.5rem",
                         fontWeight: "600",
                         letterSpacing: "-0.01em",
@@ -149,6 +155,7 @@ module.exports = {
                 h3: [
                     "2.5rem",
                     {
+                        fontFamily: "Satoshi",
                         lineHeight: "3rem",
                         fontWeight: "600",
                         letterSpacing: "-0.01em",
@@ -157,6 +164,7 @@ module.exports = {
                 h4: [
                     "2rem",
                     {
+                        fontFamily: "Satoshi",
                         lineHeight: "2.5rem",
                         fontWeight: "600",
                         letterSpacing: "-0.01em",
@@ -165,6 +173,7 @@ module.exports = {
                 h5: [
                     "1.5rem",
                     {
+                        fontFamily: "Satoshi",
                         lineHeight: "2rem",
                         fontWeight: "600",
                         letterSpacing: "-0.01em",
@@ -173,6 +182,7 @@ module.exports = {
                 h6: [
                     "1.25rem",
                     {
+                        fontFamily: "Satoshi",
                         lineHeight: "1.5rem",
                         fontWeight: "600",
                         letterSpacing: "-0.01em",
@@ -311,3 +321,4 @@ module.exports = {
         }),
     ],
 };
+
