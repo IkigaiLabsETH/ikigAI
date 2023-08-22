@@ -21,7 +21,7 @@ const HomePage = () => {
                     className="object-cover"
                     src="/images/bg.jpg"
                     fill
-                    alt="gm"
+                    alt=""
                 />
             </div>
             <div className="relative max-w-[72rem] w-full -mt-16 mx-auto px-12 pb-16 2xl:pb-12 xl:px-8 xl:pb-8 md:-mt-10 md:px-5 md:pb-5">
@@ -31,7 +31,7 @@ const HomePage = () => {
                         src="/images/logo-1.svg"
                         width={64}
                         height={64}
-                        alt="gm"
+                        alt=""
                     />
                 </div>
                 <div className="flex justify-between mb-8 md:block">
@@ -44,9 +44,7 @@ const HomePage = () => {
                 <div className="flex mb-13 lg:relative lg:block lg:pb-20">
                     <div className="grow">
                         <div className="mb-5 text-base-2 text-n-4">
-                            ikigAI Labs is developping a model that surpasses ChatGPT in
-                            several areas, like knowledge about NFTs, Web3 Gen Art
-                            creative writing, and playing with MidJourney.
+                            Current data about NFTs, Web3, and Gen Art.
                         </div>
                         <Users
                             className="mb-8"
