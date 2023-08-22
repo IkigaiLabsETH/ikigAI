@@ -44,7 +44,7 @@ const NewChat = ({}: NewChatProps) => {
                         IKIGAI LABS XYZ
                     </div>
                     <div className="text-body-1 text-n-4">
-                        Ask Me Anything about Ikigai
+                        Ask Me Anything about NFTs, Web3 and Gen Art
                     </div>
                 </div>
                 <div className="flex justify-between items-center mb-3">
