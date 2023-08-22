@@ -2,14 +2,15 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { defaultConfig, getOpenAICompletion } from "../../utils/OpenAI";
 import { OpenAIRequest } from "../../utils/OpenAI";
 
+
 export const config = {
   api: {
     externalResolver: true,
   },
-};
-
-export const runtime = 'nodejs'
-// 'edge' | 'nodejs'
+  segment: {
+    runtime: 'nodejs',
+  },
+}
 
 interface Response {
   content?: string;
@@ -64,3 +65,4 @@ export async function POST(
     });
   }
 }
+
