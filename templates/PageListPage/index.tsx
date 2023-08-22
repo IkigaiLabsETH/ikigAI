@@ -76,7 +76,7 @@ const PageListPage = () => {
             {items.map((item, index) => (
                 <Link
                     className="mb-1 text-n-7 transition-colors hover:text-primary-1 dark:text-n-1 last:mb-0"
-                    href={{ pathname: router.prefetch + item.url }}
+                    href={item.url}
                     key={index}
                 >
                     {item.title}
