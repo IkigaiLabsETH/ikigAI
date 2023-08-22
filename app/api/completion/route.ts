@@ -5,9 +5,9 @@ import { OpenAIRequest } from "../../utils/OpenAI";
 
 export const config = {
   api: {
-    externalResolver: true,
+    bodyParser: false,
     segment: {
-      runtime: 'edge',
+      runtime: "edge",
     },
   },
 }
