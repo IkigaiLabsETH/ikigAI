@@ -21,7 +21,7 @@ const bots = [
     },
     {
         id: "2",
-        title: "ChatGPT-3",
+        title: "ChatGPT-3.5",
         image: "/images/logo-chat-gpt.svg",
     },
 ];

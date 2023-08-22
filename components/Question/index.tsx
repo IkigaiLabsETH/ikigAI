@@ -1,3 +1,5 @@
+"use client";
+
 import { useContext } from "react";
 import Image from "@/components/Image";
 import ShareChatButton from "@/components/ShareChatButton";

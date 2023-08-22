@@ -1,3 +1,5 @@
+"use client"
+
 import type { NextPage } from "next";
 import ChatBotPage from "@/templates/ChatBot/ChatBotPage";
 

@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+
 
 const items = [
     {
@@ -68,12 +70,13 @@ const items = [
 ];
 
 const PageListPage = () => {
+    const router = useRouter();
     return (
         <div className="flex flex-col items-start px-12 py-8">
             {items.map((item, index) => (
                 <Link
                     className="mb-1 text-n-7 transition-colors hover:text-primary-1 dark:text-n-1 last:mb-0"
-                    href={item.url}
+                    href={{ pathname: router.prefetch + item.url }}
                     key={index}
                 >
                     {item.title}
@@ -84,3 +87,4 @@ const PageListPage = () => {
 };
 
 export default PageListPage;
+
