@@ -1,3 +1,60 @@
+## How embeddings work:
+
+ChatGPT is a great tool for answering general questions, but it falls short when it comes to answering web3-specific questions as it often makes up answers to fill its knowledge gaps and doesn't cite sources. To solve this issue, we will use embeddings coupled with vector search.
+
+## Chat with any Document or Website
+> Train your own custom GPT
+
+- Train on specific websites that you define
+- Train on documents you upload
+- Builds on dialog with Chat History 
+- Cites sources
+
+- [Pinecone](https://www.pinecone.io) - Hosted vector search which enables us to efficiently perform [k-NN searches](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) across these embeddings
+
+#### Supported Files
+- [x] .pdf
+- [x] .docx
+- [x] .md
+- [x] .txt
+- [x] .png
+- [x] .jpg
+- [x] .html
+- [x] .json
+
+#### Coming Soon
+- [ ] .csv
+- [ ] .pptx
+- [ ] notion
+- [ ] next 13 app dir
+- [ ] vercel ai sdk
+
+
+## Train
+
+#### 1. Upload: `/api/embed-file`
+
+- file is uploaded -> cleaned to plain text, and split into 1000-character documents.
+- OpenAI's embedding API is used to generate embeddings for each document using the "text-embedding-ada-002" model.
+- The embeddings are stored in a Pinecone namespace.
+
+#### 2. Scrape: `/api/embed-webpage`
+
+- Web pages are scraped using [cheerio](https://github.com/cheeriojs/cheerio), cleaned to plain text, and split into 1000-character documents.
+- OpenAI's embedding API is used to generate embeddings for each document using the "text-embedding-ada-002" model.
+- The embeddings are stored in a Pinecone namespace.
+
+## Query
+
+#### Responding to queries: `/api/query`
+
+- A single embedding is generated from the user prompt.
+- The embedding is used to perform a similarity search against the vector database.
+- The results of the similarity search are used to construct a prompt for GPT-3.5
+- The GTP-3.5 response is then streamed back to the user.
+
+
+
 <h4 align="left"><b>Meet Our CEO</b></h4>
 
 <p align="left">
@@ -39,7 +96,7 @@ The CEO is super friendly, however he lacks knowledge about gen art, web3, the I
 
 - [OpenAI](https://openai.com) - We're using the brand new [text-embedding-ada-002](https://openai.com/blog/new-and-improved-embedding-model/) embedding model, which captures deeper information about text in a latent space with 1536 dimensions
   - This allows us to go beyond keyword search and search by higher-level topics.
-- [Pinecone](https://www.pinecone.io) - Hosted vector search which enables us to efficiently perform [k-NN searches](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) across these embeddings
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

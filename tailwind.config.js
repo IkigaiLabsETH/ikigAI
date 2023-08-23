@@ -203,6 +203,10 @@ module.exports = {
         },
     },
     plugins: [
+        require("windy-radix-palette"),
+        require("tailwindcss-animate"),
+        require("@tailwindcss/typography"),
+        require("@tailwindcss/forms"),
         require("@headlessui/tailwindcss")({ prefix: "ui" }),
         require("tailwind-scrollbar"),
         iOSHeight,
@@ -320,5 +324,6 @@ module.exports = {
             });
         }),
     ],
+    presets: [require("windy-radix-palette")],
 };
 

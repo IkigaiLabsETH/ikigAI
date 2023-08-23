@@ -7,6 +7,7 @@ import Field from "@/components/Field";
 import Select from "@/components/Select";
 import Icon from "@/components/Icon";
 import PreviewChatBot from "@/components/PreviewChatBot";
+// import { useClient } from "app/api/client";
 
 const bots = [
     {
@@ -31,6 +32,24 @@ const CreateChatBotPage = () => {
     const [bot, setBot] = useState<any>(bots[0]);
     const [message, setMessage] = useState<string>("");
     const [prompt, setPrompt] = useState<string>("");
+// const client = useClient();
+
+// const handleSubmit = async (e: React.FormEvent) => {
+//    e.preventDefault();
+    // Connect to the backend and create the chatbot using the OpenAI API
+//    try {
+        // Make API call to create the chatbot
+//        const response = await client.createChatBot({
+//            name,
+//            bot,
+//            message,
+//            prompt,
+//        });
+//        console.log("Chatbot created:", response);
+//    } catch (error) {
+//        console.error("Failed to create chatbot:", error);
+ //   }
+// };
 
     return (
         <Layout>
@@ -52,13 +71,12 @@ const CreateChatBotPage = () => {
                             <PreviewChatBot />
                         </div>
                         <div className="mb-12 text-body-1 text-n-4 md:text-body-2 md:mb-8">
-                            Create an assistant chatbot that helps you answer
-                            every client&apos;s website queries quickly
+                            Create an assistant chatbot.
                         </div>
                         <form
                             action=""
                             className=""
-                            onSubmit={() => console.log("Submit")}
+                            // onSubmit={handleSubmit}
                         >
                             <div className="flex -mx-1.5 mb-12 md:block md:mx-0 md:mb-8">
                                 <Field

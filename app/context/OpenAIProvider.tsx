@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, useCallback, useEffect, useMemo } from "react";
+import React, { PropsWithChildren, useCallback, useEffect } from "react"; // removed useMemo
 
 import {
   clearHistory,
@@ -176,11 +176,11 @@ export default function OpenAIProvider({ children }: PropsWithChildren) {
     setConversations((prev) => ({ ...prev, [id]: conversation }));
 
     // if (router.pathname === CHAT_ROUTE) router.push(`/chat/${id}`);
-  }, [config, conversationName, systemMessage, conversationId, messages, router]);
+  }, [config, conversationName, systemMessage, conversationId, messages]);
 
   useEffect(() => {
     handleStoreConversation();
-  }, [handleStoreConversation, messages, systemMessage, config]);
+  }, [handleStoreConversation, messages, systemMessage, config]); 
 
   const loadConversation = (id: string, conversation: Conversation) => {
     setConversationId(id);
