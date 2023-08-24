@@ -11,7 +11,7 @@ Permissionless systems that allow individuals to have self-sovereignty over thei
 
 ## GPT4.20 + MJ V6.9
 
-Our new ikigAI Labs XYZ CEO is highly approachable but isn't well-versed with the intricacies of gen art, web3, and our unique editorial style. We believe that leveraging the AI with Bespoke Prompt Design will enhance his proficiency. It's a match made in heaven tbh.
+Our new ikigAI Labs XYZ CEO is highly approachable but isn't well-versed with the intricacies of gen art, web3, and our unique editorial style. We believe that leveraging the AI with Bespoke Prompt Design and web3 datapoints will enhance his proficiency.
 
 # Project Highlights:
 
