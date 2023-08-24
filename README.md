@@ -9,9 +9,9 @@ Permissionless systems that allow individuals to have self-sovereignty over thei
 </p>
 
 
-## GPT4.20 + MJ V6.9 is a match made in heaven tbh.
+## GPT4.20 + MJ V6.9
 
-Our ikigAI Labs XYZ CEO is highly approachable but isn't well-versed with the intricacies of gen art, web3, and our unique editorial style. We believe that leveraging the OpenAI API with Prompt Design will enhance his proficiency.
+Our ikigAI Labs XYZ CEO is highly approachable but isn't well-versed with the intricacies of gen art, web3, and our unique editorial style. We believe that leveraging the AI with Bespoke Prompt Design will enhance his proficiency. It's a match made in heaven tbh.
 
 # Project Highlights:
 
