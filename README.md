@@ -1,5 +1,6 @@
 # AI studio creating a personal AI for web3
 
+Permissionless systems that allow individuals to have self-sovereignty over their data
 
 <h4 align="left"><b>Meet Our CEO</b></h4>
 
