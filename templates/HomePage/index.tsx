@@ -44,7 +44,7 @@ const HomePage = () => {
                 <div className="flex mb-13 lg:relative lg:block lg:pb-20">
                     <div className="grow">
                         <div className="mb-5 text-base-2 text-n-4">
-                            Info about NFTs, Web3, and Gen Art.
+                          By utilizing APIs, we can give our agents the ability to 10x GPT.
                         </div>
                         <Users
                             className="mb-8"
