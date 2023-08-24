@@ -20,7 +20,7 @@ Integrated with Authentication, Session Management, and Token Tracking.
 Billing features present (currently deactivated).
 Comprehensive understanding of the Ikigai Labs XYZ codebase and associated tech stack.
 Supports both GPT-3.5 and GPT-4. Notably, GPT-3.5 offers a 16k context window via the API.
-Enhanced capabilities to connect with plugins and various APIs through the OpenAI API.
+Enhanced capabilities to connect with plugins and various APIs.
 
 ## 🔥 Features
 
