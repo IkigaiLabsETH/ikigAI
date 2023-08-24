@@ -15,6 +15,33 @@ In a general sense, agents are rational actors. They use thinking and reasoning 
 
 In AgentGPT, large language models essentially function as the brain of each agent. As a result, we can produce powerful agents by cleverly manipulating the English language and engineering a framework that supports interoperability between LLM completions and a diverse set of APIs.
 
+While we have seen that prompt engineering is largely effective in resolving issues with short-term memory and reasoning, we cannot solve long-term memory solely through clever English. Since we are not allowed to update the model to learn our data, we must build an external system for storing and retrieving knowledge.
+
+A clever solution might use an LLM to generate summaries of previous conversations as context for the prompt. However, there are three significant issues with this. First, we are diluting the relevant information for the conversation; second, it introduces another cost area by paying for API usage for those summaries; and third, it's unscalable.
+
+Thus, prompts appear to be ineffective for long-term memory. Seeing as long-term memory is a problem of storage and efficient retrieval of information, there is no absence of research in the study of search, so we must look towards vector databases.
+
+Vector databases have been hyped up for a while now, and the hype is very deserved. They are an efficient way of storing and retrieving vectors by allowing us to use some fun new algorithms to query billions - even trillions - of data records in milliseconds.
+
+Pinecone does all the hard work of managing our vectors. They provide an API that allows us to upload embeddings, perform various types of searches, and store those vectors for later. They provide the typical CRUD functions we need to instill memory into LLMs in easily-accessible Python modules. By using them, we can encode large amounts of information for future storage and retrieval. For instance, when the LLM needs extra knowledge to complete a task, we can prompt it to query the vector space to find relevant information. Thus, we can create long-term memory.
+
+While prompt engineering and vector databases resolve many of the limitations and challenges of LLMs, there is still the problem of agent interaction. How can we extend the capabilities of an LLM to interact with the environment outside of text?
+
+APIs are the answer. By utilizing APIs, we can give our agents the ability to perform a wide range of actions and access external resources.
+
+# Here are a few examples:
+
+Google Search API: Allows agents to search the web and retrieve relevant information.
+Hugging Face: Provides access to various NLP models and transformers for tasks such as summarization, translation, sentiment analysis, and more.
+Dall-E: Enables agents to generate images from textual descriptions.
+OpenAI's GPT API: Allows agents to utilize the GPT-4 model for text completion and generation.
+
+Using API tools in combination with prompt engineering techniques, we can create prompts that generate predictable function calls and utilize the output of API requests to enhance the agent's capabilities. This enables agents to interact with the environment in a meaningful way beyond text-based interactions.
+
+Getting the LLM to issue a function call consistently is challenging. A minor solution may include adjusting the temperature of the model (a parameter to control the randomness), but the best solution should leverage an LLM's reasoning abilities. Thus, we can use the ReAct framework to help the llm understand when to issue function calls.
+
+In doing this, we will still run into another major issue. How will the LLMs understand what tools are at their disposal? We could include the available tools in a prompt, but this could significantly increase the number of tokens we would need to send to the model. Thus, we would use vector databases to help the LLM look up relevant tools it needs.This format should include provisions for the name of the function and the parameters it takes, and it must include delimiters that allow us to parse and execute the response for those parameters programmatically. For instance, you can prompt the model to only return responses in JSON and then use built-in Python libraries to parse the stringified JSON.In late June, OpenAI released gpt-4-0613 and gpt-3.5-turbo-16k-0613. They natively support function calls by using a model fine-tuned for JSON to return easy-to-use function calls.  We can give any model superpowers using novel prompting methods, efficient vector databases, and abundant API tools.
+
 ## How embeddings work:
 
 ChatGPT is a great tool for answering general questions, but it falls short when it comes to answering web3-specific questions as it often makes up answers to fill its knowledge gaps and doesn't cite sources. To solve this issue, we will use embeddings coupled with vector search.
