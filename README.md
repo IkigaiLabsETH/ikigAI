@@ -59,6 +59,7 @@ Vector databases, particularly with the prowess of Pinecone, offer rapid queryin
 
 Beyond prompt engineering and vector databases lies the challenge of agent interaction. APIs bridge this gap. Examples include:
 
+- ElevenLabs: text-to-speech software
 - Google Search API: Web search and data retrieval.
 - Hugging Face: Access to NLP models and transformers.
 - Dall-E: Image generation from text.
