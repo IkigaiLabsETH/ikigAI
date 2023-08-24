@@ -27,7 +27,7 @@ ChatGPT is a great tool for answering general questions, but it falls short when
 - Builds on dialog with Chat History 
 - Cites sources
 
-- [Pinecone](https://www.pinecone.io) - Hosted vector search which enables us to efficiently perform [k-NN searches](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) across these embeddings
+- [Pinecone](https://www.pinecone.io) - Hosted vector search
 
 #### Supported Files
 - [x] .pdf
