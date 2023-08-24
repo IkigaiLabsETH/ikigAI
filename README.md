@@ -9,9 +9,9 @@ Permissionless systems that allow individuals to have self-sovereignty over thei
 </p>
 
 
-## GPT4.20 + MJ V6.9 is a match made in heaven tbh.
+## GPT4.20 + MJ V6.9
 
-Our ikigAI Labs XYZ CEO is highly approachable, but isn't well-versed with the intricacies of gen art, web3, and our unique editorial style. We believe that leveraging the OpenAI API will enhance his proficiency, as it allows us to access specific web data, and address our challenges.
+Our new ikigAI Labs XYZ CEO is highly approachable but isn't well-versed with the intricacies of gen art, web3, and our unique editorial style. We believe that leveraging the AI with Bespoke Prompt Design will enhance his proficiency. It's a match made in heaven tbh.
 
 # Project Highlights:
 
@@ -20,7 +20,7 @@ Integrated with Authentication, Session Management, and Token Tracking.
 Billing features present (currently deactivated).
 Comprehensive understanding of the Ikigai Labs XYZ codebase and associated tech stack.
 Supports both GPT-3.5 and GPT-4. Notably, GPT-3.5 offers a 16k context window via the API.
-Enhanced capabilities to connect with plugins and various APIs through the OpenAI API.
+Enhanced capabilities to connect with plugins and various APIs.
 
 ## 🔥 Features
 
@@ -49,9 +49,9 @@ Enhanced capabilities to connect with plugins and various APIs through the OpenA
 
 The Generative Pre-trained Transformer (GPT) stands as a landmark in AI advancement over the past decade. While the capabilities of LLMs, like reasoning and understanding, are noteworthy, their full potential remains untapped.
 
-At the heart of LLMs lies agentic behavior. By tapping into their emergent skills and fostering an environment conducive to interaction, we can unlock the full prowess of models like GPT-4. Our platform, AgentGPT, aims to empower LLMs beyond their inherent limitations by harnessing prompt engineering, vector databases, and API integrations.
+At the heart of LLMs lies agentic behavior. By tapping into their emergent skills and fostering an environment conducive to interaction, we can unlock the full prowess of models like GPT-4. ikigAI aims to empower LLMs beyond their inherent limitations by harnessing prompt engineering, vector databases, and API integrations.
 
-Agents are, by nature, rational entities. They apply logic and reason to influence their surroundings, be it through human interactions or tool usage. In AgentGPT, the LLM acts as the agent's cognitive core. This allows for the creation of dynamic agents by intertwining linguistic manipulation with a versatile API framework.
+Agents apply logic and reason to influence their surroundings, be it through human interactions or tool usage. The LLM acts as the agent's cognitive core. This allows for the creation of dynamic agents by intertwining linguistic manipulation with a versatile API framework.
 
 Prompt engineering has proven effective against short-term memory and reasoning constraints. But, addressing long-term memory is more intricate. As updating the model isn't an option, an external storage system becomes imperative. Using LLMs to generate context-based summaries has its limitations, making vector databases an attractive solution.
 
