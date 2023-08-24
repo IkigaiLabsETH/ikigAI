@@ -1,6 +1,7 @@
 # AI studio creating a personal AI for web3
 
-Permissionless systems that allow individuals to have self-sovereignty over their data
+Permissionless systems that allow individuals to have self-sovereignty over their data. Code is just a way how you can express your ideas in computer language.
+
 
 <h4 align="left"><b>Meet Our CEO</b></h4>
 
