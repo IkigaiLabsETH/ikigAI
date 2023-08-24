@@ -58,7 +58,7 @@ const Users = ({ className, classUsersItem, items, addUser }: UsersProps) => {
                             <Field
                                 className="mb-4"
                                 label="Email address"
-                                placeholder="I.g. tam@ui8.net"
+                                placeholder="I.g. nft@ikigilabs.xyz"
                                 type="email"
                                 value={email}
                                 onChange={(e: any) => setEmail(e.target.value)}
@@ -67,7 +67,7 @@ const Users = ({ className, classUsersItem, items, addUser }: UsersProps) => {
                             <Field
                                 className="mb-4"
                                 label="Email address"
-                                placeholder="I.g. tam@ui8.net"
+                                placeholder="I.g. web3@livethelife.tv"
                                 type="email"
                                 value={email1}
                                 onChange={(e: any) => setEmail1(e.target.value)}

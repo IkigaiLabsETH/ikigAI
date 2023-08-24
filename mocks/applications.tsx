@@ -27,12 +27,12 @@ export const applications = [
         id: "4",
         title: "GM",
         version: "version 16.32.480",
-        image: "/images/ui8.svg",
+        image: "/images/discord.svg",
     },
     {
         id: "5",
         title: "Degen",
         version: "version 16.32.480",
-        image: "/images/duolingo.svg",
+        image: "/images/discord.svg",
     },
 ];

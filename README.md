@@ -59,10 +59,11 @@ Vector databases, particularly with the prowess of Pinecone, offer rapid queryin
 
 Beyond prompt engineering and vector databases lies the challenge of agent interaction. APIs bridge this gap. Examples include:
 
-Google Search API: Web search and data retrieval.
-Hugging Face: Access to NLP models and transformers.
-Dall-E: Image generation from text.
-OpenAI's GPT API: Text generation using GPT-4.
+- Google Search API: Web search and data retrieval.
+- Hugging Face: Access to NLP models and transformers.
+- Dall-E: Image generation from text.
+- OpenAI's GPT API: Text generation using GPT-4.
+
 Combining API tools and prompt engineering, we can enhance agents' environmental interactions. Achieving consistent function calls from LLMs is a challenge that the ReAct framework and vector databases can address. With the release of gpt-4-0613 and gpt-3.5-turbo-16k-0613 by OpenAI, we can harness native function calls and JSON fine-tuning. This synergy of prompt methods, vector databases, and API tools supercharges any model.
 
 # Embeddings and Their Application:
