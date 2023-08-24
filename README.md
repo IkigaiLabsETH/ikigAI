@@ -1,3 +1,20 @@
+## AI studio creating a personal AI for everyone
+
+### Empathetic conversational AI with a web3 context for IkigAI Labs XYZ
+
+"Hey, I’m XYZ, your personal AI. Got something on your mind? Let’s talk!"
+
+
+The invention of the Generative Pre-trained Transformer (GPT) is one of the recent decade's most important advancements in AI technology. The GPTs powering today's Large Language Models (LLMs) demonstrate a remarkable ability for reasoning, understanding, and planning. However, their true potential has yet to be fully realized.
+
+We believe that the true power of LLMs lies in agentic behavior. By engineering a system that draws on LLMs' emergent abilities and providing an ecosystem that supports environmental interactions, we can draw out the full potential of models like GPT-4.
+
+By providing a platform to give LLMs agentic abilities, AgentGPT aims to overcome the limitations of standalone LLMs by leveraging prompt engineering techniques, vector databases, and API tooling.
+
+In a general sense, agents are rational actors. They use thinking and reasoning to influence their environment. This could be in the form of solving problems or pursuing specific goals. They might interact with humans or utilize tools. Ultimately, we can apply this concept to LLMs to instill more intelligent and logical behavior.
+
+In AgentGPT, large language models essentially function as the brain of each agent. As a result, we can produce powerful agents by cleverly manipulating the English language and engineering a framework that supports interoperability between LLM completions and a diverse set of APIs.
+
 ## How embeddings work:
 
 ChatGPT is a great tool for answering general questions, but it falls short when it comes to answering web3-specific questions as it often makes up answers to fill its knowledge gaps and doesn't cite sources. To solve this issue, we will use embeddings coupled with vector search.
