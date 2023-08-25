@@ -41,6 +41,7 @@ interface SourcesProps {
   sources: Array<SourceItem>;
 }
 
+
 export function Sources({ sources }: SourcesProps) {
   const [isOpen, toggleIsOpen] = useToggle();
 
@@ -94,7 +95,7 @@ function Header({ sources }: HeaderProps) {
 
 interface PillListItemProps {
   order: number;
-  source: SourceItem; // Update the type to SourceItem
+  source: string | { metadata: { type: string; source: string } }; // source: SourceItem; // Update the type to SourceItem
 }
 
 type SourceItem = string | { metadata: { type: string; source: string } };
@@ -111,25 +112,31 @@ function PillList({ sources }: SourcesProps) {
       animate="visible"
       className="flex flex-wrap gap-2 after:mb-2"
     >
-      {filteredSources.map((source, i) => (
-        <PillListItem
-          key={`${source.metadata.type}-${i}`}
-          order={i}
-          source={source as SourceItem}
-        />
-      ))}
+      {filteredSources.map((source, i) => {
+        if (typeof source === "object" && source.metadata) {
+          return (
+            <PillListItem
+              key={`${source.metadata.type}-${i}`}
+              order={i}
+              source={source as SourceItem}
+            />
+          );
+        }
+        return null;
+      })}
     </motion.ul>
   );
 }
 
 function PillListItem({ order, source }: PillListItemProps) {
+  if (typeof source === "object" && source.hasOwnProperty("metadata") && source.metadata?.type === "scrape") {
   const srcLength = 15;
   const formattedSource =
     typeof source === "object" && source?.metadata?.type === "scrape"
       ? truncateLongUrl(source.metadata.source, srcLength)
       : truncateLongFileName(source.metadata.source, srcLength);
 
-  if (typeof source === "object" && source?.metadata?.type === "scrape") {
+   if (typeof source === "object" && source?.metadata?.type === "scrape") {
     return (
       <motion.li
         variants={animateItem}
@@ -184,7 +191,7 @@ function Pill({ order, source }: PillProps) {
 }
 
 interface ContentListProps {
-  sources: Array<{ pageContent: string }>;
+  sources: Array<{ pageContent: string }>; // Update the type to SourceItem // sources: Array<{ pageContent: string }>;
   isOpen: boolean;
 }
 

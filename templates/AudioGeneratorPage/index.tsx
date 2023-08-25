@@ -7,11 +7,14 @@ import Answer from "@/components/Answer";
 import Audio from "@/components/Audio";
 import Characters from "@/components/Characters";
 import VideoPlayer from "@/components/VideoPlayer";
+import { useOpenAI } from "app/context/OpenAIProvider";
 
 const AudioGeneratorPage = () => {
+    const { addMessage, messages } = useOpenAI()
+    console.log(messages)
     return (
         <Layout>
-            <Chat background="/images/bg-4.jpg" typeChat="audio" onAddMessage={() => {}}>
+            <Chat background="/images/bg-4.jpg" typeChat="audio"  onAddMessage={(message: string) => addMessage(message, true)}>
                 <Question
                     content={
                         <>

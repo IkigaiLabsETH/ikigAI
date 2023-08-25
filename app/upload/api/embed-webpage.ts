@@ -1,13 +1,13 @@
 import type { NextApiRequest, NextApiResponse } from "next"
 import { OpenAIEmbeddings } from "langchain/embeddings"
 import { PineconeStore } from "langchain/vectorstores"
-import { Configuration, OpenAIApi } from "openai"
+// import { Configuration, OpenAIApi } from "openai"
 import { initPinecone } from "config/pinecone"
 import { getDocumentsFromUrl } from "config/lib/webpage"
 
 
-const configuration = new Configuration({ apiKey: process.env.OPENAI_API_KEY })
-const openAi = new OpenAIApi(configuration)
+// const configuration = new Configuration({ apiKey: process.env.OPENAI_API_KEY })
+// const openAi = new OpenAIApi(configuration)
 
 if (
   !process.env.PINECONE_ENVIRONMENT ||
