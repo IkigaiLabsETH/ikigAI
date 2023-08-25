@@ -147,6 +147,8 @@ Property suggestions near worldclass surf.
 - Weather Forecasting: 
 Detailed weather analyses for surfers or snowboarders.
 
+TLDR: https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates
+
 # Scale on 10K photos
 
 We’re working with Scale as a preferred partner to extend the benefits of our fine-tuning capability given their experience helping enterprises securely and effectively leverage data for AI. Building robust enterprise-grade functionality requires rigorous data enrichment and model evaluation. 
