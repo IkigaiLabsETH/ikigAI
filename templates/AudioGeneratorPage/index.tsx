@@ -11,6 +11,7 @@ import { useOpenAI } from "app/context/OpenAIProvider";
 
 const AudioGeneratorPage = () => {
     const { addMessage, messages } = useOpenAI()
+    
     console.log(messages)
     return (
         <Layout>
