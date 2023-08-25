@@ -126,26 +126,34 @@ The latest version of this module has feature parity with the official `v3.3.0`.
 
 Fine-tuning for GPT-3.5 is a game-changer. Price is bit expensive though. It's 4x expensive than the base gpt3.5 model.Here are a few examples of applications that will benefit from this development:
 
-Customer Service Chatbots: Personalized chatbots that cater to web3, offering more accurate and relevant responses.
+- Customer Service Chatbots: 
+Personalized chatbots that cater to web3, offering more accurate and relevant responses.
 
-Content Creation: Custom content generators tailored for specific genres, such as an NFT Art Magazine.
+- Content Creation: 
+Custom content generators tailored for specific genres, such as an NFT Art Magazine.
 
-E-commerce Assistants: Chatbots designed to understand and respond to specific product queries, assisting in shopping decisions.
+- E-commerce Assistants: 
+Chatbots designed to understand and respond to specific product queries.
 
-Recipe Generators: Tools that generate recipes based on specific cuisine preferences.
+- Recipe Generators: 
+Tools that generate recipes based on specific cuisine preferences.
 
-Financial Analysis: AI tools fine-tuned to analyze stock market trends, real estate values, or the cryptocurrency industry.
+- Financial Analysis: 
+AI tools fine-tuned to analyze stock market trends, real estate values, or the cryptocurrency industry.
 
-Creative Arts: AI-assisted music composition or art design tools tailored for specific genres and styles.
+- Creative Arts: 
+AI-assisted music composition or art design tools tailored for specific genres and styles.
 
-Travel Assistants: Virtual travel guides fine-tuned for specific regions, offering local insights, language support, and travel tips.
+- Travel Assistants: 
+Virtual travel guides fine-tuned for specific regions, offering local insights, language support, and travel tips.
 
-Home Automation: Voice assistants fine-tuned to understand commands for specific smart home systems or appliances.
+- Home Automation: 
+Voice assistants fine-tuned to understand commands for specific smart home systems or appliances.
 
-Technical Support: Automated systems tailored to guide users through troubleshooting specific products or software.
+- Real Estate: 
+AI assistants that provide property suggestions based on very specific user preferences.
 
-Real Estate Platforms: AI assistants that provide property suggestions based on very specific user preferences.
-
-Weather Forecasting: AI tools tailored to provide detailed weather analyses for surfers or snowboarders.
+- Weather Forecasting: 
+AI tools tailored to provide detailed weather analyses for surfers or snowboarders.
 
 Happy fine-tuning!
