@@ -11,7 +11,7 @@ Permissionless systems that allow you to have self-sovereignty over your data. C
 
 ## GPT4.20 + MJ V6.9
 
-Our new ikigAI Labs XYZ CEO is highly approachable but isn't well-versed with the intricacies of gen art, web3, and our editorial style @livethelife.tv We believe that leveraging the AI with Bespoke Prompt Design and web3 datapoints will enhance his proficiency.
+Our newly appointed CEO at ikigAI Labs XYZ is known for being approachable, but lacks expertise in gen art, web3, and our editorial style at @livethelife.tv. To address this, we plan to enhance his knowledge by utilizing a sophisticated AI model. The CEO will undergo training using real-time web3 data and general art information obtained through API endpoints. Of course, he hasn't overlooked the top 1000 places to Live The Life, which he has been curating for the past two decades.
 
 # Project Highlights:
 
