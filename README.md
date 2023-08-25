@@ -128,7 +128,7 @@ The latest version of this module has feature parity with the official `v3.3.0`.
 
 ## WTF is FT GPT 3.5 (scale)
 
-Fine-tuning for GPT-3.5 is a game-changer. Price is bit expensive though. It's 4x expensive than the base gpt3.5 model.Here are a few examples of applications that will benefit from this development:
+Fine-tuning for GPT-3.5 is a game-changer. Price is bit expensive though. It's 4.20 times more expensive than the base gpt3.5 model. Here are a few examples of applications that will benefit from this development:
 
 - Content Creation: 
 Tailored for our LiveTheLifeTV Gen Art, Photography & Travel Magazine.
