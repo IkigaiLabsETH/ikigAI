@@ -124,6 +124,7 @@ The latest version of this module has feature parity with the official `v3.3.0`.
 > **Update July 2023:** The official `openai` library will use `fetch` in v4,
 > hopefully making `openai-edge` redundant. You can try it in beta now, more
 > info here: https://github.com/openai/openai-node/discussions/182
+V4 is out now! https://github.com/openai/openai-node/blob/v4/api.md
 
 
 ## WTF is FT GPT 3.5 (scale)
