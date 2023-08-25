@@ -2,7 +2,6 @@
 
 Permissionless systems that allow individuals to have self-sovereignty over their data. Code is just a way how you can express your ideas in computer language. With a plethora of dedicated AI tools, I think knowledge is 'less' important. What's vital is critical thinking, it allows us to come at any problem without having to remember all the fine technical details.
 
-
 <h4 align="left"><b>Meet Our CEO</b></h4>
 
 <p align="left">
@@ -123,3 +122,30 @@ The latest version of this module has feature parity with the official `v3.3.0`.
 > info here: https://github.com/openai/openai-node/discussions/182
 
 
+## FT GPT 3.5 
+
+Fine-tuning for GPT-3.5 is a game-changer. Price is bit expensive though. It's 4x expensive than the base gpt3.5 model.Here are a few examples of applications that will benefit from this development:
+
+Customer Service Chatbots: Personalized chatbots that cater to web3, offering more accurate and relevant responses.
+
+Content Creation: Custom content generators tailored for specific genres, such as an NFT Art Magazine.
+
+E-commerce Assistants: Chatbots designed to understand and respond to specific product queries, assisting in shopping decisions.
+
+Recipe Generators: Tools that generate recipes based on specific cuisine preferences.
+
+Financial Analysis: AI tools fine-tuned to analyze stock market trends, real estate values, or the cryptocurrency industry.
+
+Creative Arts: AI-assisted music composition or art design tools tailored for specific genres and styles.
+
+Travel Assistants: Virtual travel guides fine-tuned for specific regions, offering local insights, language support, and travel tips.
+
+Home Automation: Voice assistants fine-tuned to understand commands for specific smart home systems or appliances.
+
+Technical Support: Automated systems tailored to guide users through troubleshooting specific products or software.
+
+Real Estate Platforms: AI assistants that provide property suggestions based on very specific user preferences.
+
+Weather Forecasting: AI tools tailored to provide detailed weather analyses for surfers or snowboarders.
+
+Happy fine-tuning!
