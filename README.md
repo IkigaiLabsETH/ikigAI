@@ -22,7 +22,7 @@ Comprehensive understanding of the Ikigai Labs XYZ codebase and associated tech 
 Supports both GPT-3.5 and GPT-4. Notably, GPT-3.5 offers a 16k context window via the API.
 Enhanced capabilities to connect with plugins and various APIs.
 
-## 🔥 Features
+## Wen 🔥 Features (soon)
 
 - Prompt library
 - Organize chats into folders (with colours)
@@ -45,7 +45,7 @@ Enhanced capabilities to connect with plugins and various APIs.
 - Unlimited local storage (desktop)
 - Runs locally (desktop)
 
-# Leveraging the Power of Large Language Models (LLMs)
+# How: Leveraging the Power of Large Language Models
 
 The Generative Pre-trained Transformer (GPT) stands as a landmark in AI advancement over the past decade. While the capabilities of LLMs, like reasoning and understanding, are noteworthy, their full potential remains untapped.
 
@@ -105,7 +105,7 @@ https://github.com/IkigaiLabsETH/supabase-ai/
 - [ ] vercel ai sdk
 
 
-# OpenAI Edge
+# Why OpenAI Edge
 
 A TypeScript module for querying OpenAI's API using `fetch` (a standard Web API)
 instead of `axios`. This is a drop-in replacement for the official `openai`
@@ -122,7 +122,7 @@ The latest version of this module has feature parity with the official `v3.3.0`.
 > info here: https://github.com/openai/openai-node/discussions/182
 
 
-## FT GPT 3.5 
+## WTF is FT GPT 3.5 
 
 Fine-tuning for GPT-3.5 is a game-changer. Price is bit expensive though. It's 4x expensive than the base gpt3.5 model.Here are a few examples of applications that will benefit from this development:
 
