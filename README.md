@@ -17,6 +17,8 @@ In addition, it is worth mentioning that our new CEO has a deep passion for codi
 
 During his free time, our CEO indulges in his love for working on generative art. It serves as a creative outlet for him, allowing him to explore the intersection of technology and artistic expression. By experimenting with algorithms and code, he enjoys pushing the boundaries of what is possible in the realm of visual art. This passion further fuels his understanding and appreciation for the intricacies of gen art, enabling him to bring a unique perspective to our endeavors at ikigAI Labs XYZ.
 
+In addition to his involvement in generative art, a significant portion of our CEO's time is dedicated to writing content for our editorial magazine. Furthermore, he actively engages with creators by deploying contracts with esteemed organizations such as Translient Labs and Manifold Studio, ensuring fair and transparent collaborations. Our CEO also oversees the development of bespoke audited contracts powered by the Thirdweb SDK. Additionally, he devotes time to index the top 1000 curated art collections using the Reservoir SDK, allowing for easy access to these valuable data resources. Staying informed and up-to-date is crucial in the rapidly evolving world of web3. Hence, our CEO keeps a finger on the pulse of the market by leveraging the power of the top 10 web3 APIs. This enables him to make well-informed decisions and seize opportunities that align with our mission and vision at ikigAI Labs XYZ.
+
 # Project Highlights:
 
 Utilizes the OpenAI API.
