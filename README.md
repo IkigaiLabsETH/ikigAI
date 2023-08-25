@@ -122,7 +122,7 @@ The latest version of this module has feature parity with the official `v3.3.0`.
 > info here: https://github.com/openai/openai-node/discussions/182
 
 
-## WTF is FT GPT 3.5 
+## WTF is FT GPT 3.5 (scale)
 
 Fine-tuning for GPT-3.5 is a game-changer. Price is bit expensive though. It's 4x expensive than the base gpt3.5 model.Here are a few examples of applications that will benefit from this development:
 
@@ -146,3 +146,9 @@ Property suggestions near worldclass surf.
 
 - Weather Forecasting: 
 Detailed weather analyses for surfers or snowboarders.
+
+# Scale on 10K photos
+
+We’re working with Scale as a preferred partner to extend the benefits of our fine-tuning capability given their experience helping enterprises securely and effectively leverage data for AI. Building robust enterprise-grade functionality requires rigorous data enrichment and model evaluation. 
+
+With https://dashboard.scale.com/nucleus
