@@ -1,6 +1,6 @@
 # AI studio creating a personal AI for web3
 
-Permissionless systems that allow individuals to have self-sovereignty over their data. Code is just a way how you can express your ideas in computer language. With a plethora of dedicated AI tools, I think knowledge is 'less' important. What's vital is critical thinking, it allows us to come at any problem without having to remember all the fine technical details.
+Permissionless systems that allow you to have self-sovereignty over your data. Code is just a way you express your ideas in computer language. With dedicated AI tools, knowledge is 'less' important, what's vital is critical thinking.
 
 <h4 align="left"><b>Meet Our CEO</b></h4>
 
