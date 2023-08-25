@@ -66,7 +66,7 @@ Beyond prompt engineering and vector databases lies the challenge of agent inter
 - ElevenLabs: text-to-speech & Pro Voice Cloning.
 - Google Search API: Web search and data retrieval.
 - Hugging Face: Access to NLP models and transformers.
-- Dall-E: Image generation from text.
+- MidJourney & Dall-E: Image generation from text.
 - OpenAI's GPT API: Text generation using GPT-4.
 
 Combining API tools and prompt engineering, we can enhance agents' environmental interactions. Achieving consistent function calls from LLMs is a challenge that the ReAct framework and vector databases can address. With the release of gpt-4-0613 and gpt-3.5-turbo-16k-0613 by OpenAI, we can harness native function calls and JSON fine-tuning. This synergy of prompt methods, vector databases, and API tools supercharges any model.
@@ -77,7 +77,7 @@ ChatGPT excels in general queries but struggles with web3-specific questions due
 
 # Introducing Supabase:
 
-Supabase, an open-source alternative to Firebase, offers a swift backend setup. Within minutes, projects are equipped with authentication, a Postgres database, instant APIs, storage, and real-time subscriptions. With security at its core, it simplifies sign-ups and data protection. Users can manage extensive files effortlessly and run custom codes without server hassles. Supabase fosters local development, scaling as required. It's user-friendly, eliminating the need for database expertise. In essence, Supabase combines speed, reliability, and efficiency for seamless data management.
+Supabase, an open-source alternative to Firebase, offers a swift backend setup. Within minutes, projects are equipped with authentication, a Postgres database, instant APIs, storage, and real-time subscriptions. With security at its core, it simplifies sign-ups and data protection. Users can manage extensive files effortlessly and run custom codes without server hassles. Supabase fosters local development, scaling as required.
 
 https://github.com/IkigaiLabsETH/supabase-ai/
 
