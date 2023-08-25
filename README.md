@@ -11,7 +11,7 @@ Permissionless systems that allow you to have self-sovereignty over your data. C
 
 ## GPT4.20 + MJ V6.9
 
-Our newly appointed CEO at ikigAI Labs XYZ is known for being approachable, but lacks expertise in gen art, web3, and our editorial style at @livethelife.tv. To address this, we plan to enhance his knowledge by utilizing a sophisticated AI model. The CEO will undergo training using real-time web3 data and general art information obtained through API endpoints. Of course, he hasn't overlooked the top 1000 places to Live The Life, which he has been curating for the past two decades.
+Our newly appointed CEO at ikigAI Labs XYZ is known for being approachable, but lacks expertise in gen art, web3, and our editorial style at @livethelife.tv. To address this, we plan to enhance his knowledge by utilizing a sophisticated AI model. The CEO will undergo training using real-time web3 data and general art information obtained through API endpoints. Of course, he hasn't overlooked the top 1000 places to Live The Life, which he has been curating for the past two decades. In addition, it is worth mentioning that our new CEO has a deep passion for coding. He firmly believes that code is everything and everything is code. His enthusiasm for technology and programming has been a driving force behind his success. With the assistance of OpenAI, the learning curve has been significantly increased, allowing him to focus more on the actual business logic and idea implementation. This has paved the way for a faster path towards Minimum Viable Product (MVP) development, streamlining our operations and accelerating innovation.
 
 # Project Highlights:
 
