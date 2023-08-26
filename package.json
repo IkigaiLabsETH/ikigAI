@@ -78,6 +78,7 @@
     "recharts": "^2.7.2",
     "remark-gfm": "^3.0.1",
     "remark-math": "^5.1.1",
+    "replicate": "^0.16.1",
     "swr": "^2.1.1",
     "tailwind-merge": "^1.13.1",
     "tailwind-scrollbar": "^3.0.4",

@@ -7416,6 +7416,11 @@ remark-rehype@^10.0.0:
     mdast-util-to-hast "^12.1.0"
     unified "^10.0.0"
 
+replicate@^0.16.1:
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/replicate/-/replicate-0.16.1.tgz#8a096c7e91f6fc3630025efdba9b5e6f521b2d21"
+  integrity sha512-7GlY2IRJd4CwXLSO+eTNCRjYFlT10pgHQjYnwCBczr4+qdErIZp4sAEuRFfhzXNU3Bi+sYJJLpcddnUOFxStNg==
+
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz"
