@@ -1,4 +1,4 @@
-# ikigAI studio training our CEO with AI
+# ikigAI studio training our CEO
 
 In the era of permissionless systems, individuals can now exercise self-sovereignty over their data, empowering them with control and ownership. Code, at its core, is a medium through which ideas are expressed in the language of computers. While knowledge remains valuable, the advent of dedicated AI tools has shifted the emphasis towards critical thinking. These tools enable us to navigate vast amounts of information and extract meaningful insights, fostering a culture of innovation and problem-solving. In this new paradigm, the ability to think critically and creatively becomes paramount
 
