@@ -2,7 +2,7 @@ import * as cheerio from "cheerio"
 import { Document } from "langchain/document"
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter"
 
-async function splitDocumentsFromUrl(pageContent: string, url) {
+async function splitDocumentsFromUrl(pageContent: string, url: string) {
   const rawDocs = new Document({
     pageContent,
     metadata: { source: url, type: "scrape" },
@@ -17,7 +17,7 @@ async function splitDocumentsFromUrl(pageContent: string, url) {
 }
 
 export async function getDocumentsFromUrl(urls: string[]) {
-  const documents = []
+  const documents: Document[] = []
 
   // Fetch and process the content of each URL
   for (const url of urls) {

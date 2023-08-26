@@ -17,14 +17,14 @@ const formidableConfig = {
   multiples: false,
 }
 
-export const getTextContentFromPDF = async (pdfBuffer) => {
+export const getTextContentFromPDF = async (pdfBuffer: Buffer) => {
   // TODO: pass metadata
   const { text, metadata } = await pdfParse(pdfBuffer)
   console.log("metadata", metadata)
   return text
 }
 
-export async function extractTextFromImage(imagePath) {
+export async function extractTextFromImage(imagePath: string) {
   return Tesseract.recognize(imagePath, "eng", {
     logger: (m) => console.log(m),
   }).then(({ data: { text } }) => {
@@ -60,7 +60,7 @@ export const fileConsumer = <T = unknown>(acc: T[]) => {
   return writable
 }
 
-const convertFileToString = async (file: formidable.File, chunks) => {
+const convertFileToString = async (file: formidable.File, chunks: Buffer[]) => {
   const fileData = Buffer.concat(chunks)
 
   let fileText = ""
@@ -94,10 +94,10 @@ const convertFileToString = async (file: formidable.File, chunks) => {
     case "text/csv":
       break
     case "image/jpeg":
-      fileText = await extractTextFromImage(fileData)
+      fileText = await extractTextFromImage(fileData.toString())
       break
     case "image/png":
-      fileText = await extractTextFromImage(fileData)
+      fileText = await extractTextFromImage(fileData.toString())
       break
     case "text/html":
       const html = fileData.toString()
@@ -128,10 +128,15 @@ export const getFileText = async (req: NextApiRequest) => {
 
   const { file } = files
 
-  return convertFileToString(file as formidable.File, chunks)
+  return convertFileToString(file[0] as formidable.File, chunks)
 }
 
-export const splitDocumentsFromFile = async (file) => {
+interface CustomFile extends File {
+  fileName: string;
+  fileText: string;
+}
+
+export const splitDocumentsFromFile = async (file: CustomFile) => {
   const { fileText, fileName } = file
 
   const textSplitter = new RecursiveCharacterTextSplitter({
