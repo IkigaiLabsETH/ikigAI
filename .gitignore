@@ -40,5 +40,4 @@ next-env.d.ts
 
 # turbo
 .turbo
-
 .contentlayer
