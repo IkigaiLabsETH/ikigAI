@@ -131,6 +131,9 @@ export const getFileText = async (req: NextApiRequest) => {
   return convertFileToString(file[0] as formidable.File, chunks)
 }
 
+
+
+
 interface CustomFile extends File {
   fileName: string;
   fileText: string;

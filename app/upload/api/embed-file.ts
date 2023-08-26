@@ -1,3 +1,5 @@
+
+
 import type { NextApiRequest, NextApiResponse, PageConfig } from "next"
 import { OpenAIEmbeddings } from "langchain/embeddings"
 import { PineconeStore } from "langchain/vectorstores"
@@ -12,9 +14,12 @@ if (
   throw new Error("Pinecone environment or api key vars missing")
 }
 
+
+
 export async function handler(req: NextApiRequest, res: NextApiResponse) {
   const { namespace } = req.headers
   const namespaceConfig = !!namespace ? namespace : "default-namespace"
+  
 
   try {
     // parse file -> text -> Document chunk & metadata -> store in Pinecone Namespace

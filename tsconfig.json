@@ -32,5 +32,5 @@
     },
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules", "components/PineCone/*", "app/upload" ] // excluded the ui as we will use our own components, they serve as reference for now
+  "exclude": ["node_modules", "components/PineCone/*", "app/upload"  ] // excluded the ui as we will use our own components, they serve as reference for now
 }

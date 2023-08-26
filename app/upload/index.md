@@ -2,16 +2,16 @@ import { useCallback, useState } from "react"
 import { AnimatePresence, motion } from "framer-motion"
 import { cn } from "config/lib/utils"
 import { Card } from "../../components/PineCone/Card"
-import {
-  BackgroundColorBlur,
-  BackgroundGridPattern,
-  PageLayout,
-} from "../../components/PineCone/Layouts"
+// import {
+//  BackgroundColorBlur,
+//  BackgroundGridPattern,
+//  PageLayout,
+// } from "../../components/PineCone/Layouts"
 import { NamespaceSelector } from "./NamespaceSelector"
 // import { NamespaceSelector } from "../../components/PineCone/NamespaceInput"
-import { DocumentQA } from "../../components/PineCone/query/DocumentQA"
-import { FileUpload } from "../../components/PineCone/train/FileUpload"
-import { UrlScraper } from "../../components/PineCone/train/UrlScraper"
+// import { DocumentQA } from "../../../components/PineCone/query/DocumentQA"
+// import { FileUpload } from "../../components/PineCone/train/FileUpload"
+// import { UrlScraper } from "../../components/PineCone/train/UrlScraper"
 
 
 
