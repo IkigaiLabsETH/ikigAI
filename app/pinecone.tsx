@@ -3,7 +3,7 @@ import {
   useState
 } from 'react'
 
-export default function Home() {
+export default function PineCone() {
   const [query, setQuery] = useState('')
   const [result, setResult] = useState('')
   const [loading, setLoading] = useState(false)

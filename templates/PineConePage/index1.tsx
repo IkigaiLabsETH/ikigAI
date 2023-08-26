@@ -1,4 +1,5 @@
 'use client'
+
 import {
   useState
 } from 'react'
@@ -55,3 +56,5 @@ const PineConePage = () => {
   </main>
 )
 }
+
+export default PineConePage;
