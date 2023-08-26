@@ -1,0 +1,16 @@
+{
+  "framework": "nextjs"
+}
+
+{
+    "functions": {
+      "api/*.ts": {
+        "memory": 3008,
+        "maxDuration": 10
+      },
+      "api/*.ts": {
+        "memory": 3008,
+        "maxDuration": 10
+      }
+    }
+  }
