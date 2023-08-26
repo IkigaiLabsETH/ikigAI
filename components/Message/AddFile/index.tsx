@@ -5,6 +5,12 @@ import Modal from "@/components/Modal";
 
 type AddFileProps = {};
 
+const uploadPDF = () => {
+    // Call your Pinecone API uploadPDF function here
+    // Example: pineconeAPI.uploadPDF();
+    console.log("Upload PDF function triggered");
+};
+
 const AddFile = ({}: AddFileProps) => {
     const [visible, setVisible] = useState<boolean>(false);
     const [visibleModal, setVisibleModal] = useState<boolean>(false);
@@ -16,7 +22,10 @@ const AddFile = ({}: AddFileProps) => {
                     className={`group relative w-10 h-10 outline-none before:absolute before:inset-0 before:bg-gradient-to-b before:from-[#9A77FF] before:to-[#735FFA] before:border before:border-primary-2 before:rounded-xl before:shadow-[inset_0_0_0_0.0625rem_rgba(255,255,255,0.5)] before:opacity-0 before:transition-all ${
                         visible ? "before:!opacity-100" : ""
                     }`}
-                    onClick={() => setVisible(!visible)}
+                    onClick={() => {
+                        setVisible(!visible);
+                        uploadPDF(); // Call the uploadPDF function
+                    }}
                 >
                     <Icon
                         className={`relative z-1 w-6 h-6 fill-n-7 transition-colors group-hover:fill-primary-4 dark:fill-n-2 ${

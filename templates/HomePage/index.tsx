@@ -74,7 +74,7 @@ const HomePage = () => {
                         </div>
                         <div className="flex justify-between items-center mb-3 pb-3 border-b border-n-3 dark:border-n-5">
                             <div className="text-base-2 text-n-4">
-                                Developers
+                                AI model
                             </div>
                             <div className="flex items-center text-base-2 font-semibold">
                                 OpenAI
