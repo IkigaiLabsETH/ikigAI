@@ -26,6 +26,25 @@ Comprehensive understanding of the Ikigai Labs XYZ codebase and associated tech 
 Supports both GPT-3.5 and GPT-4. Notably, GPT-3.5 offers a 16k context window via the API.
 Enhanced capabilities to connect with plugins and various APIs.
 
+## API GPT ROUTE.TS
+
+This is an experimental project using OpenAI GPT Plugins and Replicate to combine all AI APis into one.
+
+Instead of using separate interfaces for image generation, video generation, audio generation, and general text natural language processing, this app combines all of them together into a single prompt.
+
+APIs currently supported:
+- Text to image
+- Text to video
+- Text to audio
+- General natural language processing
+
+Examples of what you might ask:
+
+- Create a 4 day travel itinerary for Paris.
+- Create an image of someone in their production studio creating beats, futuristic, dim lighting, bronx new york
+- Create a track that sounds like it might come from kanye west, hip-hop, soul samples, heavy drums, innovative melodies, experimental sounds, unusual effects, automation, modulating filters, distortion effects
+- Create a video of clown fish swimming in a coral reef, beautiful, 8k, perfect, award winning, national geographic
+
 ## Wen 🔥 Features (soon)
 
 - Prompt library

@@ -21,6 +21,9 @@
     "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
     "@microsoft/fetch-event-source": "^2.0.1",
     "@pinecone-database/pinecone": "^0.1.6",
+    "@supabase/auth-helpers-nextjs": "^0.5.6",
+    "@supabase/auth-helpers-react": "^0.3.1",
+    "@supabase/supabase-js": "^2.11.0",
     "@radix-ui/colors": "^0.1.8",
     "@radix-ui/react-alert-dialog": "^1.0.2",
     "@radix-ui/react-toast": "^1.1.4",
@@ -91,6 +94,7 @@
   },
   "devDependencies": {
     "@types/formidable": "^3.4.1",
-    "@types/pdf-parse": "^1.1.1"
+    "@types/pdf-parse": "^1.1.1",
+    "supabase": "1.49.4"
   }
 }
