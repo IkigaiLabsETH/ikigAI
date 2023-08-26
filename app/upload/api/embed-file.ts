@@ -1,8 +1,8 @@
 import type { NextApiRequest, NextApiResponse, PageConfig } from "next"
 import { OpenAIEmbeddings } from "langchain/embeddings"
 import { PineconeStore } from "langchain/vectorstores"
-import { initPinecone } from "config/pinecone"
-import { getFileText, splitDocumentsFromFile } from "config/lib/file"
+import { initPinecone } from "../../../config/pinecone"
+import { getFileText, splitDocumentsFromFile } from "../../../config/lib/file"
 
 if (
   !process.env.PINECONE_ENVIRONMENT ||
