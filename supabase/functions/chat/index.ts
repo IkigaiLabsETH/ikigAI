@@ -7,7 +7,7 @@ import {
   HumanMessagePromptTemplate,
 } from "langchain/prompts";
 
-import { corsHeaders } from "../_shared/cors.ts";
+import { corsHeaders } from "./_shared/cors.ts";
 
 const prompt = ChatPromptTemplate.fromPromptMessages([
   HumanMessagePromptTemplate.fromTemplate("{input}"),
