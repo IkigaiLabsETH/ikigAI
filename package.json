@@ -5,6 +5,9 @@
   "license": "MIT",
   "description": "生 and OpenAI's API",
   "private": true,
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "supabase:start": "supabase start",
     "supabase:stop": "supabase stop",
@@ -16,6 +19,28 @@
     "lint": "next lint",
     "postinstall": "prisma generate"
   },
+  "keywords": [
+    "openai",
+    "chatgpt",
+    "chat",
+    "gpt",
+    "gpt3",
+    "gpt-3",
+    "gpt3.5",
+    "gpt-3.5",
+    "gpt4",
+    "gpt-4",
+    "completion",
+    "chatcompletion",
+    "conversation",
+    "conversation ai",
+    "ai",
+    "ml",
+    "bot",
+    "chatbot",
+    "discord",
+    "discordbot"
+],
   "dependencies": {
     "@chakra-ui/next-js": "^2.1.4",
     "@chakra-ui/react": "^2.7.1",
