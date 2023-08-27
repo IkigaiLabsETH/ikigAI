@@ -111,7 +111,8 @@
     "yarn": "^1.22.19",
     "typewriter-effect": "^2.20.1",
     "zod": "^3.21.4",
-    "zustand": "^4.3.9"
+    "zustand": "^4.3.9",
+    "puppeteer-core": "^21.0.3"
   },
   "devDependencies": {
     "@types/formidable": "^3.4.1",
