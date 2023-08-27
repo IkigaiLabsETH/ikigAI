@@ -191,3 +191,5 @@ TLDR: https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates
 We’re working with Scale as a preferred partner to extend the benefits of our fine-tuning capability given their experience helping enterprises securely and effectively leverage data for AI. Building robust enterprise-grade functionality requires rigorous data enrichment and model evaluation. 
 
 With https://dashboard.scale.com/nucleus
+
+Function calling in the openai api is amazing, huge unlock tbh
