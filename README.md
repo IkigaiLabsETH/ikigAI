@@ -145,6 +145,9 @@ The latest version of this module has feature parity with the official `v3.3.0`.
 > info here: https://github.com/openai/openai-node/discussions/182
 V4 is out now! https://github.com/openai/openai-node/blob/v4/api.md
 
+**Node version 18.x.x**
+
+// consider for auth? https://clerk.com/docs/quickstarts/nextjs
 
 ## WTF is FT GPT 3.5 (scale)
 
