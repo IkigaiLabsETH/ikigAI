@@ -40,8 +40,9 @@
     "chatbot",
     "discord",
     "discordbot"
-],
+  ],
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.6.1",
     "@chakra-ui/next-js": "^2.1.4",
     "@chakra-ui/react": "^2.7.1",
     "@clerk/nextjs": "^4.21.15",
