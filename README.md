@@ -17,7 +17,7 @@ In the era of permissionless systems, individuals can now exercise self-sovereig
 </p>
 
 
-## GPT4.20 + MJ V6.9
+# GPT4.20 + MJ V6.9
 
 At ikigAI Labs XYZ, we have embarked on an exciting journey led by our visionary CEO, who is harnessing the power of AI to shape the future of our company in the next decade. With the help of a fine-tuned GPT4.20 model, our CEO is immersing himself in web3 knowledge, leveraging real-time data and cutting-edge art information obtained through API endpoints. For the past two decades, he has meticulously curated the top 1000 places to Live The Life, ensuring that our Artist Residency offerings are nothing short of exceptional. 
 
@@ -193,7 +193,7 @@ We’re working with Scale as a preferred partner to extend the benefits of our 
 
 With https://dashboard.scale.com/nucleus
 
-## Function calling: Flights 
+# Function calling: Flights 
 
 This is a huge unlock imo. You can find the code for setting up and running the experiment here: https://github.com/daveebbelaar/langchain-experiments/blob/main/openai-functions/openai_function_calling.py
 
