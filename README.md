@@ -2,8 +2,6 @@
 
 In the era of permissionless systems, individuals can now exercise self-sovereignty over their data, empowering them with control and ownership. Code, at its core, is a medium through which ideas are expressed in the language of computers. While knowledge remains valuable, the advent of dedicated AI tools has shifted the emphasis towards critical thinking. These tools enable us to navigate vast amounts of information and extract meaningful insights, fostering a culture of innovation and problem-solving. In this new paradigm, the ability to think critically and creatively becomes paramount.
 
-## GPT4 FT is dope AF. But models can only ever be as good as the data they are trained on. No matter how intelligent the LLM is, retrieving the wrong thing in context will surely lead to hallucination. Garbage in, garbage out.
-
 # Why we're diving deep into web3
 
 **1. Authenticity & Ownership:** Our AI, powered by the likes of OpenAI's ChatGPT, can craft anything from engaging text to mesmerizing images and soulful music. But with great power comes the question: who truly owns these digital masterpieces? NFTs are our answer. With them, we can stamp a seal of originality on every AI-created piece, giving artists and creators the undisputed title to their digital works.
@@ -160,6 +158,9 @@ V4 is out now! https://github.com/openai/openai-node/blob/v4/api.md
 **Node version 18.x.x**
 
 // consider for auth? https://clerk.com/docs/quickstarts/nextjs
+
+## Fine Tuning is dope AF. But models can only ever be as good as the data they are trained on. No matter how intelligent the LLM is, retrieving the wrong thing in context will surely lead to hallucination. Garbage in, garbage out.
+
 
 ## WTF is FT GPT 3.5 (scale)
 
