@@ -2,7 +2,7 @@
 
 In the era of permissionless systems, individuals can now exercise self-sovereignty over their data, empowering them with control and ownership. Code, at its core, is a medium through which ideas are expressed in the language of computers. While knowledge remains valuable, the advent of dedicated AI tools has shifted the emphasis towards critical thinking. These tools enable us to navigate vast amounts of information and extract meaningful insights, fostering a culture of innovation and problem-solving. In this new paradigm, the ability to think critically and creatively becomes paramount.
 
-## GPT4 FT are 🔥 but models can only ever be as good as the data they are trained on. No matter how intelligent the LLM is, retrieving the wrong thing in context will surely lead to hallucination. Garbage in, garbage out.
+## GPT4 FT is dope AF. But models can only ever be as good as the data they are trained on. No matter how intelligent the LLM is, retrieving the wrong thing in context will surely lead to hallucination. Garbage in, garbage out.
 
 # Why we're diving deep into web3
 
