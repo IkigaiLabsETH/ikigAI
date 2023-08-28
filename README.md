@@ -159,8 +159,6 @@ V4 is out now! https://github.com/openai/openai-node/blob/v4/api.md
 
 // consider for auth? https://clerk.com/docs/quickstarts/nextjs
 
-## Fine Tuning is dope AF. But models can only ever be as good as the data they are trained on. No matter how intelligent the LLM is, retrieving the wrong thing in context will surely lead to hallucination. Garbage in, garbage out.
-
 
 ## WTF is FT GPT 3.5 (scale)
 
@@ -209,6 +207,9 @@ Implement a hard-coded function, compare outcome.
 ### Execute use case 2:
 Implement 3 functions and test them with different prompts.
 Implement conversational chat model with Langchain with the functions and test it with a prompt with several requests.
+
+
+## Fine Tuning is dope AF. But models can only ever be as good as the data they are trained on. No matter how intelligent the LLM is, retrieving the wrong thing in context will surely lead to hallucination. Garbage in, garbage out.
 
 
 ### 1. **Cost vs. Efficiency**:
