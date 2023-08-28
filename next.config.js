@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+      "functions": {
+        "pages/**/*": {
+          "excludeFiles": "public/**"
+        }
+      },
     experimental: {
       legacyBrowsers: false,
       outputFileTracingIgnores: ['**canvas**'],
