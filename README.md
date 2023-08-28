@@ -10,12 +10,9 @@ In the era of permissionless systems, individuals can now exercise self-sovereig
 
 **3. A Marketplace for AI Brilliance:** Imagine a world where you can trade AI tools as you would collectible cards. With NFTs, that's our reality. We're setting the stage for a bustling marketplace where AI models become tokens of trade. For researchers, developers, and innovators, this means more than just access; it's a space to collaborate, innovate, and even earn from their creations.
 
-<h4 align="left"><b>Meet Our CEO</b></h4>
-
 <p align="left">
     <a href="https://livethelife.tv" target="_blank"><img src="public/other/apple-touch-icon.png" alt="IkigaiLabsXYZ" width="100" /></a>
 </p>
-
 
 # GPT4.20 + MJ V6.9
 
