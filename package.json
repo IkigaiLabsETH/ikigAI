@@ -140,7 +140,6 @@
   },
   "devDependencies": {
     "@types/formidable": "^3.4.1",
-    "@types/pdf-parse": "^1.1.1",
     "prisma": "^5.0.0",
     "supabase": "1.49.4"
   }
