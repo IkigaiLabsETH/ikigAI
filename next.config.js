@@ -7,7 +7,7 @@ const nextConfig = {
       },
     experimental: {
       legacyBrowsers: false,
-      outputFileTracingIgnores: ['**canvas**'],
+      'experimental.outputFileTracingExcludes': ['**canvas**'],
       '*': [
         'node_modules/@swc/**/*',  
         'node_modules/next/dist',
