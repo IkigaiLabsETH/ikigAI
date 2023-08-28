@@ -5,7 +5,7 @@ const nextConfig = {
       outputFileTracingIgnores: ['**canvas**'],
       '*': [
         // prettier-ignore
-        'node_modules/@canvas/',
+        'node_modules/canvas/build',
       ],
   },
   images: {
