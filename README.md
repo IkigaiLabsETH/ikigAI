@@ -194,4 +194,17 @@ We’re working with Scale as a preferred partner to extend the benefits of our 
 
 With https://dashboard.scale.com/nucleus
 
-Function calling in the openai api is amazing, huge unlock tbh
+## Function calling: Flights 
+
+This is a huge unlock imo. You can find the code for setting up and running the experiment in the openai_function_calling.py file here: https://github.com/daveebbelaar/langchain-experiments/blob/main/openai-functions/openai_function_calling.py
+
+Note: Make sure your device has Python 3.9 or higher and an up-to-date version of Langchain module to execute the scripts successfully. Below is a brief description of the key steps in the code: Load the OpenAI token from the .env file.
+
+### Execute use case 1:
+Ask ChatGPT a question regarding flight information.
+Implement function calling, compare outcome.
+Implement a hard-coded function, compare outcome.
+
+### Execute use case 2:
+Implement 3 functions and test them with different prompts.
+Implement conversational chat model with Langchain with the functions and test it with a prompt with several requests.
