@@ -198,7 +198,7 @@ With https://dashboard.scale.com/nucleus
 
 This is a huge unlock imo. You can find the code for setting up and running the experiment here: https://github.com/daveebbelaar/langchain-experiments/blob/main/openai-functions/openai_function_calling.py
 
-Note: Make sure your device has Python 3.9 or higher and an up-to-date version of Langchain module to execute the scripts successfully. Below is a brief description of the key steps in the code: Load the OpenAI token from the .env file.
+Note: Make sure your device has Python 3.9 or higher and an up-to-date version of Langchain module to execute the scripts successfully. Below the key steps in the code. First load the OpenAI token from the .env file.
 
 ### Execute use case 1:
 Ask ChatGPT a question regarding flight information.
