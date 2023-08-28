@@ -4,6 +4,9 @@
 
 {
     "functions": {
+      "pages/**/*": {
+        "excludeFiles": "public/**"
+      }
       "api/*.ts": {
         "memory": 3008,
         "maxDuration": 10
