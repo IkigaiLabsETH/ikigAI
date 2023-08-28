@@ -184,6 +184,21 @@ export const chatRequest = [
         ],
         url: "/code-generator",
     },
+    {
+        id: "7",
+        title: "Let's fucking GOOO 2themovies",
+        image: "/images/icons/code-snippet.svg",
+        lastModified: "1 hour ago",
+        created: "5 hour ago",
+        color: "#DABAFF",
+        members: [
+            "/images/avatar-3.jpg",
+            "/images/avatar-2.jpg",
+            "/images/avatar-1.jpg",
+            "/images/avatar-4.jpg",
+        ],
+        url: "/movies",
+    },
 ];
 
 export const historyChat = [
@@ -228,5 +243,11 @@ export const historyChat = [
         title: "Web3 Market Stats",
         color: "#FF66C2",
         url: "/statistics",
+    },
+    {
+        id: "8",
+        title: "Movies",
+        color: "#FF66C2",
+        url: "/movies",
     },
 ];
