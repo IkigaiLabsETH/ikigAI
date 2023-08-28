@@ -5,34 +5,27 @@ import Chat from "@/components/Chat";
 import Question from "@/components/Question";
 import Answer from "@/components/Answer";
 import Video from "@/components/Video";
+import { useOpenAI } from "app/context/OpenAIProvider";
 
 const VideoGenerationPage = () => {
+    const { addMessage, messages } = useOpenAI()
+    console.log(messages)
     return (
         <Layout>
-            <Chat background="/images/bg-2.jpg" typeChat="video" onAddMessage={() => {}}>
-                <Question
-                    content={
-                        <>
-                            Create a talking avatar for this script: <br></br>{" "}
-                            <br></br>
-                            the Talking Avatar Video Creator. 
-                            You can easily create videos featuring a virtual
-                            avatar or NFT that delivers your message in a
-                            personalized and natural way. Whether you&apos;re
-                            chatting about art, sharing information about your
-                            collection, or delivering an AMA...
-                        </>
-                    }
-                    image="/images/file-name.jpg"
-                />
-                <Answer
-                    content="Based on the gender identified in the uploaded image, the video has been automatically generated with a male voice. However, you have the option to customize your video by selecting from the available options below."
-                    message="Generating video for you..."
-                    result="Background removed"
-                >
-                    <Video />
-                </Answer>
+            <Chat background="/images/bg-2.jpg" typeChat="video" onAddMessage={(message: string) => addMessage(message, true)}>
+            {
+                    messages.map((message, index) => {
+                        if (message.role === "user") {
+                            return <Question key={index} content={message.content} />
+                        } else {
+                            return (<Answer key={index} message="Generating">
+                                <Code code={message.content} content={message.content} />
+                            </Answer>)
+                        }
+                    })
+                }
             </Chat>
+            <Video/ >
         </Layout>
     );
 };
