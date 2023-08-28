@@ -1,10 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    experimental: {
+      legacyBrowsers: false,
+      outputFileTracingIgnores: ['**canvas**'],
+  },
   images: {
     domains: [
-      "googleusercontent.com",
+      // "googleusercontent.com",
       // "oaidalleapiprodscus.blob.core.windows.net",
-      "cdn.openai.com"
+      // "cdn.openai.com"
     ]
   },
 }
