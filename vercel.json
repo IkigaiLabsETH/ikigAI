@@ -4,8 +4,8 @@
 
 {
     "functions": {
-      "pages/**/*": {
-        "excludeFiles": "public/**"
+      "api/setup/**/*": {
+        "excludeFiles": "api/setup/**"
       }
       "api/*.ts": {
         "memory": 3008,
