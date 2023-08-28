@@ -142,5 +142,8 @@
     "@types/formidable": "^3.4.1",
     "prisma": "^5.0.0",
     "supabase": "1.49.4"
+  },
+  "resolutions": {
+    "canvas": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.2.1.tgz"
   }
 }
