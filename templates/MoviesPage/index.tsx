@@ -61,8 +61,8 @@ export default function Home() {
               name="prompt"
               id="prompt"
               className="block w-full rounded-none rounded-l-md border-0 py-1.5  text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-              placeholder="What are the ratings and the release date for the movie Banshees of Inisherin?"
-              defaultValue="What are the ratings and the release date for the movie Banshees of Inisherin?"
+              placeholder="What are the ratings and the release date for the movie the Matrix?"
+              defaultValue="What are the ratings and the release date for the movie the Matrix?"
               onKeyDown={handlePromptKey}
               autoFocus
             />
