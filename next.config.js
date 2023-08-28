@@ -8,14 +8,11 @@ const nextConfig = {
     experimental: {
       legacyBrowsers: false,
       outputFileTracingIgnores: ['**canvas**'],
-  },
-  images: {
-    domains: [
-      // "googleusercontent.com",
-      // "oaidalleapiprodscus.blob.core.windows.net",
-      // "cdn.openai.com"
-    ]
-  },
-}
+      '*': [
+        'node_modules/@swc/**/*',  
+        'node_modules/next/dist',
+      ],
+    },
+  }
    
   module.exports = nextConfig
