@@ -1,5 +1,6 @@
 "use client";
 
+import { itemsCode, code, actions } from "@/mocks/code";
 import { useState, KeyboardEvent, useRef } from "react";
 
 import Layout from "@/components/Layout";
@@ -14,7 +15,11 @@ import Audio from "@/components/Audio";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
-export default function Home() {
+import { useOpenAI } from "app/context/OpenAIProvider";
+
+const MoviesPage = () => {
+  const { addMessage, messages } = useOpenAI()
+  console.log(messages)
   const promptInput = useRef<HTMLInputElement>(null);
   const [ratings, setRatings] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -44,6 +49,7 @@ export default function Home() {
   };
 
   console.log(ratings);
+
   return (
     <main className="flex min-h-screen flex-col items-center  p-24">
       <div>
@@ -86,3 +92,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default MoviesPage;
