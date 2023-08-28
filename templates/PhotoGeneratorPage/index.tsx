@@ -29,13 +29,13 @@ const PhotoGeneratorPage = () => {
     return (
         <Layout>
             <Chat background="/images/bg-3.jpg" typeChat="photo-generator" onAddMessage={() => {}}>
-                <Question content="3D Hi Fi Retro Futuristic Character, Blender, Dribbble, Behance, --ar 1:1 --q 2 --s 750" />
+                <Question content="3D Hi Fi Retro Futuristic Character, --ar 1:1 --q 2 --s 750" />
                 <Answer
                     content="Boom! Your image is generated with Midjourney with prompt:"
                     message="Generating images for you…"
                 >
                     <PhotoGenerator
-                        content="3D Hi Fi Retro Futuristic Character, Blender, Dribbble, Behance, --ar 1:1 --q 2 --s 750"
+                        content="3D Hi Fi Retro Futuristic Character, --ar 1:1 --q 2 --s 750"
                         images={images}
                     />
                 </Answer>
@@ -46,7 +46,7 @@ const PhotoGeneratorPage = () => {
                     <PhotoGenerator content="New variations" images={images} />
                 </Answer>
                 <Answer
-                    content="3D Hi Fi Retro Futuristic Character, Blender, Dribbble, Behance, --ar 1:1 --q 2 --s 75"
+                    content="3D Hi Fi Retro Futuristic Character, --ar 1:1 --q 2 --s 75"
                     message="Generating image for you…"
                 >
                     <PhotoGenerator
