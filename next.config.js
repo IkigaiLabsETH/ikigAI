@@ -3,6 +3,10 @@ const nextConfig = {
     experimental: {
       legacyBrowsers: false,
       outputFileTracingIgnores: ['**canvas**'],
+      '*': [
+        // prettier-ignore
+        'node_modules/@canvas/',
+      ],
   },
   images: {
     domains: [
