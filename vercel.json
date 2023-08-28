@@ -1,19 +1,5 @@
 {
-  "framework": "nextjs"
+  "ignore": [
+    "node_modules/canvas/build/**"
+  ]
 }
-
-{
-    "functions": {
-      "api/setup/**/*": {
-        "excludeFiles": "api/setup/**"
-      }
-      "api/*.ts": {
-        "memory": 3008,
-        "maxDuration": 10
-      },
-      "api/*.ts": {
-        "memory": 3008,
-        "maxDuration": 10
-      }
-    }
-  }
