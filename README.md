@@ -174,7 +174,7 @@ Detailed weather analyses for surfers or snowboarders.
 
 TLDR: https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates
 
-# Why we're diving deep into web3
+# Provenance 
 
 **1. Authenticity & Ownership:** Our AI, powered by the likes of OpenAI's ChatGPT, can craft anything from engaging text to mesmerizing images and soulful music. But with great power comes the question: who truly owns these digital masterpieces? NFTs are our answer. With them, we can stamp a seal of originality on every AI-created piece, giving artists and creators the undisputed title to their digital works.
 
@@ -182,9 +182,9 @@ TLDR: https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates
 
 **3. A Marketplace for AI Brilliance:** Imagine a world where you can trade AI tools as you would collectible cards. With NFTs, that's our reality. We're setting the stage for a bustling marketplace where AI models become tokens of trade. For researchers, developers, and innovators, this means more than just access; it's a space to collaborate, innovate, and even earn from their creations.
 
-# Scale on 10K photos
+# Scale Photography 10K photos
 
-We’re working with Scale as a preferred partner to extend the benefits of our fine-tuning capability given their experience helping enterprises securely and effectively leverage data for AI. Building robust enterprise-grade functionality requires rigorous data enrichment and model evaluation. 
+We’re working with Scale to extend the benefits of fine-tuning capabilities based on photography
 
 With https://dashboard.scale.com/nucleus
 
@@ -192,7 +192,7 @@ With https://dashboard.scale.com/nucleus
 
 This is a huge unlock imo. You can find the code for setting up and running the experiment here: https://github.com/daveebbelaar/langchain-experiments/blob/main/openai-functions/openai_function_calling.py
 
-Note: Make sure your device has Python 3.9 or higher and an up-to-date version of Langchain module to execute the scripts successfully. Below the key steps in the code. First load the OpenAI token from the .env file.
+Note: Make sure your device has Python 3.9 or higher and an up-to-date version of Langchain module to execute the scripts successfully. Below are the key steps in the code. First, load the OpenAI token from the .env file.
 
 ### Execute use case 1:
 Ask ChatGPT a question regarding flight information.
@@ -204,7 +204,7 @@ Implement 3 functions and test them with different prompts.
 Implement conversational chat model with Langchain with the functions and test it with a prompt with several requests.
 
 
-## Fine Tuning is dope AF. But models can only ever be as good as the data they are trained on. No matter how intelligent the LLM is, retrieving the wrong thing in context will surely lead to hallucination. Garbage in, garbage out.
+## Fine Tuning is dope AF. But models can only ever be as good as the data they are trained on. No matter how intelligent the LLM is, retrieving the wrong thing in context will surely lead to hallucinations. Garbage in, garbage out.
 
 
 ### 1. **Cost vs. Efficiency**:
