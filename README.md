@@ -22,6 +22,12 @@ He indulges in his love for generative art code, photography, video editing, col
 - Comprehensive understanding of the Ikigai Labs XYZ codebase & tech stack.
 - Supports both GPT-3.5 (16K) and GPT-4. 
 - Connect with plugins and various APIs.
+- YouTube, Midjourney, WhatsApp integration
+- Camera Capture and Generative Voice AI
+- Save chat automatically to local storage
+- Import / Export / Download chat
+- Azure OpenAI endpoint support
+- Replicate endpoint support
 
 ## API GPT ROUTE.TS
 
