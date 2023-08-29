@@ -21,7 +21,7 @@ Staying ahead of the curve is paramount in the rapidly evolving world of Web3. T
 - Utilizes the OpenAI API.
 - Integrated with Authentication, Session Management, and Token Tracking.
 - Billing features present (currently deactivated). Adding NFT & token gate.
-- Comprehensive understanding of the Ikigai Labs XYZ codebase and associated tech stack.
+- Comprehensive understanding of the Ikigai Labs XYZ codebase & tech stack.
 - Supports both GPT-3.5 (16K) and GPT-4. 
 - Connect with plugins and various APIs.
 
