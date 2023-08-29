@@ -20,7 +20,7 @@ const StatisticsPage = () => {
     console.log(messages)
     return (
         <Layout>
-            <Chat background="/images/bg-4.jpg" onAddMessage={addMessage}>
+            <Chat background="/images/bg-4.jpg" onAddMessage={(message: string) => addMessage(message, true)}>
                 <Question content={prompt}>
                     <PreviewPost
                         title="Dribbble"
