@@ -36,7 +36,7 @@ const StopButton = ({ onClick }: { onClick: () => void }) => (
     className="rounded border border-neutral-500 bg-white px-4 py-2 text-black hover:opacity-80 dark:bg-neutral-900 dark:text-white md:top-0"
     onClick={onClick}
   >
-    <StopIcon className="mb-[2px] inline-block" /> 
+    <StopIcon className="mb-[2px] inline-block" /> {translate('Stop')}
   </button>
 );
 
@@ -45,7 +45,7 @@ const NewButton = ({ onClick }: { onClick: () => void }) => (
     className="rounded border border-neutral-500 bg-white px-4 py-2 text-black hover:opacity-80 dark:bg-neutral-900 dark:text-white md:top-0"
     onClick={onClick}
   >
-    <PlusIcon className="mb-[2px] inline-block" /> 
+    <PlusIcon className="mb-[2px] inline-block" /> {translate('New')}
   </button>
 );
 
@@ -164,18 +164,18 @@ export const AgentInput: FC<InputProps> = ({
           rel="noreferrer"
           className="underline"
         >
-          AGENTS
+          This app
         </a>
-        {' are designed to make it easier to run and develop with '}
+        {' is designed to make it easier to run and develop with '}
         <a
           href="https://github.com/"
           target="_blank"
           rel="noreferrer"
           className="underline"
         >
-          openAI
+          the openAI api
         </a>
-        {' in a web app, like a ChatGPT.'}
+        {' in a web3 app.'}
       </div>
     </div>
   );
