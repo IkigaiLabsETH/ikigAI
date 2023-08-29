@@ -2,14 +2,6 @@
 
 In the era of permissionless systems, individuals can now exercise self-sovereignty over their data, empowering them with control and ownership. Code, at its core, is a medium through which ideas are expressed in the language of computers. While knowledge remains valuable, the advent of dedicated AI tools has shifted the emphasis towards critical thinking. These tools enable us to navigate vast amounts of information and extract meaningful insights, fostering a culture of innovation and problem-solving. In this new paradigm, the ability to think critically and creatively becomes paramount.
 
-# Why we're diving deep into web3
-
-**1. Authenticity & Ownership:** Our AI, powered by the likes of OpenAI's ChatGPT, can craft anything from engaging text to mesmerizing images and soulful music. But with great power comes the question: who truly owns these digital masterpieces? NFTs are our answer. With them, we can stamp a seal of originality on every AI-created piece, giving artists and creators the undisputed title to their digital works.
-
-**2. Elevating Value with Digital Rarity:** Art isn't just about expression; it's also about value. In a digital age where replication is just a click away, NFTs are our game-changers. They allow us to craft exclusive, limited-edition AI artworks. For artists and creators, this isn't just about standing out; it's an opportunity to monetize their genius, offering collectors a piece of digital rarity that may or may not appreciate in value.
-
-**3. A Marketplace for AI Brilliance:** Imagine a world where you can trade AI tools as you would collectible cards. With NFTs, that's our reality. We're setting the stage for a bustling marketplace where AI models become tokens of trade. For researchers, developers, and innovators, this means more than just access; it's a space to collaborate, innovate, and even earn from their creations.
-
 <p align="left">
     <a href="https://livethelife.tv" target="_blank"><img src="public/other/apple-touch-icon.png" alt="IkigaiLabsXYZ" width="100" /></a>
 </p>
@@ -20,9 +12,9 @@ At ikigAI Labs XYZ, we have embarked on an exciting journey led by our visionary
 
 His passion for coding runs deep, as he firmly believes that code is the foundation of everything. By consuming AI sdk's and api's, our CEO has accelerated his learning curve, allowing him to focus on the business logic and idea implementation that drive our success. This streamlined approach has expedited our Minimum Viable Product (MVP) development. 
 
-He indulges in his love for generative art code, photography, video editing, color grading, electronic music, and exploring the possibilities of MidJourney V6.9. These creative outlets allow him to seamlessly blend technology and artistic expression, pushing the boundaries of visual art through algorithms and code. This passion fuels his understanding of gen art, bringing a unique perspective to our endeavors at ikigAI Labs XYZ. In addition to his involvement in generative art, our CEO dedicates a significant portion of his time to writing content for our editorial magazine. He also actively engages with creators, fostering fair and transparent collaborations through contracts with esteemed organizations like Translient Lab, Manifold Studio and audited contracts powered by the Thirdweb SDK. Furthermore, he diligently indexes the top 1000 curated art collections using the Reservoir SDK. 
+He indulges in his love for generative art code, photography, video editing, color grading, electronic music, and exploring the possibilities of MidJourney V6.9. These creative outlets allow him to seamlessly blend technology and artistic expression, pushing the boundaries of visual art through algorithms and code. This passion fuels his understanding of gen art, bringing a unique perspective to our endeavors at ikigAI Labs XYZ. In addition to his involvement in generative art, our CEO dedicates a significant portion of his time to writing content for our editorial magazine. He also actively engages with creators, fostering fair and transparent collaborations through contracts with esteemed organizations like Translient Lab, Manifold Studio, and audited contracts powered by the Thirdweb SDK. Furthermore, he diligently indexes the top 1000 curated art collections using the Reservoir SDK. 
 
-Staying ahead of the curve is paramount in the rapidly evolving world of web3. That's why our CEO leverages the power of the top 10 web3 APIs, keeping his finger on the pulse of the market. This strategic approach empowers him to make well-informed decisions and seize opportunities that align with our mission and vision. 
+Staying ahead of the curve is paramount in the rapidly evolving world of Web3. That's why our CEO leverages the power of the top 10 web3 APIs, keeping his finger on the pulse of the market. This strategic approach empowers him to make well-informed decisions and seize opportunities that align with our mission and vision. 
 
 # Project Highlights:
 
@@ -47,15 +39,15 @@ APIs currently supported:
 
 Examples of what you might ask:
 
-- Create a 4 day travel itinerary for Paris.
-- Create an image of someone in their production studio creating beats, futuristic, dim lighting, bronx new york
-- Create a track that sounds like it might come from kanye west, hip-hop, soul samples, heavy drums, innovative melodies, experimental sounds, unusual effects, automation, modulating filters, distortion effects
-- Create a video of clown fish swimming in a coral reef, beautiful, 8k, perfect, award winning, national geographic
+- Create a 4-day travel itinerary for Paris.
+- Create an image of someone in their production studio creating beats, futuristic, dim lighting, new york
+- Create a track that sounds like it might come from Kanye West, hip-hop, soul samples, heavy drums, innovative melodies, experimental sounds, unusual effects, automation, modulating filters, distortion effects
+- Create a video of clownfish swimming in a coral reef, beautiful, 8k, perfect, award-winning, national geographic
 
 ## Wen 🔥 Features (soon)
 
 - Prompt library
-- Organize chats into folders (with colours)
+- Organize chats into folders (with colors)
 - Filter chats and folders
 - Token count and pricing
 - YouTube, Midjourney, WhatsApp integration
@@ -183,6 +175,14 @@ Property suggestions near worldclass surf.
 Detailed weather analyses for surfers or snowboarders.
 
 TLDR: https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates
+
+# Why we're diving deep into web3
+
+**1. Authenticity & Ownership:** Our AI, powered by the likes of OpenAI's ChatGPT, can craft anything from engaging text to mesmerizing images and soulful music. But with great power comes the question: who truly owns these digital masterpieces? NFTs are our answer. With them, we can stamp a seal of originality on every AI-created piece, giving artists and creators the undisputed title to their digital works.
+
+**2. Elevating Value with Digital Rarity:** Art isn't just about expression; it's also about value. In a digital age where replication is just a click away, NFTs are our game-changers. They allow us to craft exclusive, limited-edition AI artworks. For artists and creators, this isn't just about standing out; it's an opportunity to monetize their genius, offering collectors a piece of digital rarity that may or may not appreciate in value.
+
+**3. A Marketplace for AI Brilliance:** Imagine a world where you can trade AI tools as you would collectible cards. With NFTs, that's our reality. We're setting the stage for a bustling marketplace where AI models become tokens of trade. For researchers, developers, and innovators, this means more than just access; it's a space to collaborate, innovate, and even earn from their creations.
 
 # Scale on 10K photos
 
