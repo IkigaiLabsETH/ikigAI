@@ -1,5 +1,5 @@
-import { simplifySearchResults } from '@/lib/agents/babyelfagi/tools/webSearch';
-import { AgentTask, AgentMessage } from '@/types';
+import { simplifySearchResults } from 'config/agents/babyelfagi/tools/webSearch';
+import { AgentTask, AgentMessage } from '@/types/babyagi';
 import { analystPrompt, searchQueryPrompt } from '../../../../utils/prompt';
 import { textCompletion } from './utils/textCompletion';
 import { largeTextExtract } from './utils/largeTextExtract';

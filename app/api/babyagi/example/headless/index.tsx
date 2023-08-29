@@ -1,6 +1,6 @@
 import React from 'react';
-import { useAgent } from '@/hooks/useAgent';
-import FirstTimeUserMessage from '@/components/Agent/FirstTimeMessage';
+import { useAgent } from '@/hooks/babyagi/useAgent';
+import FirstTimeUserMessage from '@/components/BabyAgi/Agent/FirstTimeMessage';
 const ExampleHeadlessPage: React.FC = () => {
   const { agentMessages, input, handleSubmit, handleInputChange } = useAgent({
     api: '/api/agent',

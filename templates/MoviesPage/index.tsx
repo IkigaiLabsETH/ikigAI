@@ -46,3 +46,5 @@ import Question from "@/components/Question";
     </Layout>
   );
 });
+
+export default MoviesPage;

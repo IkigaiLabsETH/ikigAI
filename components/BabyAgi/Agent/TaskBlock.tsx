@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { Block, AgentMessage } from '@/types';
-import { useSkills } from '@/hooks';
+import { Block, AgentMessage } from '@/types/babyagi';
+import { useSkills } from '@/hooks/babyagi';
 import { AgentResult } from './AgentResult';
 import { AgentTaskStatus } from './AgentTastStatus';
 import { getEmoji } from '@/utils/message';

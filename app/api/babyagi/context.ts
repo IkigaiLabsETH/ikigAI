@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { contextAgent } from '@/lib/agents/babyagi/service';
+import { contextAgent } from 'config/agents/babyagi/service';
 
 export const config = {
   runtime: 'edge',

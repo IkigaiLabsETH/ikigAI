@@ -1,6 +1,6 @@
 import { FC, useEffect, useRef, useState } from 'react';
-import va from '@vercel/analytics';
-import { Execution, SelectItem, Block } from '@/types';
+// import va from '@vercel/analytics';
+import { Execution, SelectItem, Block } from '@/types/babyagi';
 import { AgentInput } from './AgentInput';
 import { AgentParameter } from './AgentParameter';
 import { ProjectTile } from './ProjectTile';
@@ -10,7 +10,7 @@ import {
   getAgentLoadingMessage,
   groupMessages,
   convertToAgentMessages,
-} from '../../utils/message';
+} from '../../../utils/message';
 import { AGENT, ITERATIONS, MODELS } from '@/utils/constants';
 import { translate } from '@/utils/translate';
 import { useTranslation } from 'next-i18next';
@@ -31,7 +31,7 @@ import {
   useFeedback,
   useScrollControl,
   useCurrentEvaluation,
-} from '@/hooks';
+} from '@/hooks/babyagi';
 import { toast } from 'sonner';
 
 export const AgentView: FC = () => {

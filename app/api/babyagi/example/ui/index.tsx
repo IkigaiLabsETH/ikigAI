@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import { Block } from '@/types';
-import { useAgent } from '@/hooks/useAgent';
+import { Block } from '@/types/babyagi';
+import { useAgent } from '@/hooks/babyagi/useAgent';
 import { groupMessages } from '@/utils/message';
-import { AgentBlock } from '@/components/Agent/AgentBlock';
-import FirstTimeUserMessage from '@/components/Agent/FirstTimeMessage';
+import { AgentBlock } from '@/components/BabyAgi/Agent/AgentBlock';
+import FirstTimeUserMessage from '@/components/BabyAgi/Agent/FirstTimeMessage';
 const ExampleUIPage: React.FC = () => {
   const [agentBlocks, setAgentBlocks] = useState<Block[]>([]);
   const { agentMessages, input, handleSubmit, handleInputChange, isRunning } =

@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { Block } from '@/types';
+import { Block } from '@/types/babyagi';
 import { getEmoji, getTitle } from '@/utils/message';
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
 import remarkGfm from 'remark-gfm';

@@ -1,6 +1,6 @@
-import { AgentTask } from '@/types';
+import { AgentTask } from '@/types/babyagi';
 import { Skill } from '../skill';
-import { largeTextExtract } from '@/lib/agents/babyelfagi/tools/utils/largeTextExtract';
+import { largeTextExtract } from 'config/agents/babyelfagi/tools/utils/largeTextExtract';
 import { webScrape } from '../../tools/webScrape';
 import { v4 as uuidv4 } from 'uuid';
 

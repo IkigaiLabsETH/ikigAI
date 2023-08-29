@@ -1,4 +1,4 @@
-import { SelectItem } from '@/types';
+import { SelectItem } from '@/types/babyagi';
 import {
   CheckIcon,
   ChevronDownIcon,
@@ -7,7 +7,7 @@ import {
 import * as SelectPrimitive from '@radix-ui/react-select';
 import { FC } from 'react';
 import Image from 'next/image';
-import { translate } from '../../utils/translate';
+import { translate } from '../../../utils/translate';
 import { InfoCard } from './InfoCard';
 import Link from 'next/link';
 

@@ -1,8 +1,8 @@
 import { FC, use, useEffect, useState } from 'react';
 import { Select } from './Select';
-import { SelectItem } from '@/types';
+import { SelectItem } from '@/types/babyagi';
 import { AGENT, ITERATIONS, MODELS } from '@/utils/constants';
-import { translate } from '../../utils/translate';
+import { translate } from '../../../utils/translate';
 import { getUserApiKey } from '@/utils/settings';
 
 interface AgentParameterProps {
@@ -47,7 +47,7 @@ export const AgentParameter: FC<AgentParameterProps> = ({
     <div className="mx-auto flex flex-col items-start space-y-3 p-4 pt-14 lg:w-2/3 xl:w-2/4">
       <div className="z-20 flex w-full items-start justify-center gap-2">
         <Select
-          label={translate('MODEL')}
+          label={translate('MODEL') || 'Default Label'}
           item={model}
           items={MODELS}
           onChange={(value) => {
@@ -55,10 +55,10 @@ export const AgentParameter: FC<AgentParameterProps> = ({
           }}
         />
         <Select
-          label={translate('AGENT')}
+          label={translate('MODEL') || 'Default Label'}
           item={agent}
           items={agentOption}
-          onChange={(value) => {
+          onChange={(value: string) => {
             setAgent(AGENT.find((agent) => agent.id === value)!);
           }}
         />
@@ -66,12 +66,12 @@ export const AgentParameter: FC<AgentParameterProps> = ({
       {agent.id === 'babyagi' && (
         <div className="z-10 flex w-1/2 items-start pr-1">
           <Select
-            label={translate('ITERATIONS')}
+            label={translate('MODEL') || 'Default Label'}
             item={iterations}
             items={ITERATIONS}
             onChange={(value) => {
               setIterations(
-                ITERATIONS.find((iterations) => iterations.id === value)!,
+                ITERATIONS.find((iterations) => iterations.id === value)!
               );
             }}
           />
@@ -81,8 +81,7 @@ export const AgentParameter: FC<AgentParameterProps> = ({
         agent.id !== 'babydeeragi' &&
         agent.id !== 'babyelfagi' && (
           <div className="flex w-full flex-col">
-            <label className="mb-2 text-left text-xs text-neutral-400 dark:text-neutral-500">
-              {translate('FIRST_TASK')}
+            <label className="mb-2 text-left text-xs text-neutral-400 dark:text-neutral-500"> 
             </label>
             <input
               className="w-full rounded-lg border border-neutral-200 p-3 text-neutral-600 focus:outline-none dark:border-neutral-600 dark:bg-neutral-800 dark:text-white"

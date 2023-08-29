@@ -1,4 +1,4 @@
-import { AgentMessage, AgentTask } from '@/types';
+import { AgentMessage, AgentTask } from '@/types/babyagi';
 import { relevantInfoExtraction } from './relevantInfoExtraction';
 
 export const largeTextExtract = async (

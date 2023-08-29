@@ -1,4 +1,4 @@
-import { AgentMessage, AgentTask } from '@/types';
+import { AgentMessage, AgentTask } from '@/types/babyagi';
 import { ChatOpenAI } from 'langchain/chat_models/openai';
 import { HumanChatMessage } from 'langchain/schema';
 

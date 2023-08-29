@@ -1,6 +1,6 @@
-import { SelectItem } from '@/types';
+import { SelectItem } from '@/types/babyagi';
 import { FC } from 'react';
-import { translate } from '../../utils/translate';
+import { translate } from '../../../utils/translate';
 
 interface AgentMessageHeaderProps {
   model: SelectItem;

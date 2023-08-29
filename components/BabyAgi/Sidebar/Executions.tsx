@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { ExecutionRow } from './ExecutionRow';
-import { useExecution } from '@/hooks/useExecution';
+import { useExecution } from '@/hooks/babyagi/useExecution';
 
 export const Executions: FC = () => {
   const { executions } = useExecution();

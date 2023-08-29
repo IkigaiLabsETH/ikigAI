@@ -1,4 +1,4 @@
-import { AgentStatus, Message } from '@/types';
+import { AgentStatus, Message } from '@/types/babyagi';
 import { setupMessage } from '@/utils/message';
 import { getUserApiKey } from '@/utils/settings';
 import {

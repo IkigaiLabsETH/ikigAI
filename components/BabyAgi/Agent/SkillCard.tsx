@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import * as HoverCard from '@radix-ui/react-hover-card';
 import clsx from 'clsx';
-import { SkillInfo } from '@/types';
+import { SkillInfo } from '@/types/babyagi';
 
 export interface SkillProps {
   skill: SkillInfo;

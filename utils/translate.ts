@@ -1,4 +1,4 @@
-// import { i18n } from 'next-i18next';
+ import { i18n } from 'next-i18next';
 
 type Namespace = 'common' | 'agent' | 'constants' | 'message';
 
@@ -9,5 +9,5 @@ export const translate = (
 ) => {
   const opts = !!ns ? { ns } : undefined;
   const defaultText = text ? text : key;
-  // return i18n?.t(key, defaultText, opts) ?? key;
+  return i18n?.t(key, defaultText, opts) ?? key;
 };

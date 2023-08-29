@@ -1,6 +1,6 @@
-import { useExecution } from '@/hooks/useExecution';
-import { useExecutionStatus } from '@/hooks/useExecutionStatus';
-import { Execution } from '@/types';
+import { useExecution } from '@/hooks/babyagi/useExecution';
+import { useExecutionStatus } from '@/hooks/babyagi/useExecutionStatus';
+import { Execution } from '@/types/babyagi';
 import { FC } from 'react';
 import { ExtraButton } from './ExtraButton';
 import { ALL_AGENTS } from '@/utils/constants';

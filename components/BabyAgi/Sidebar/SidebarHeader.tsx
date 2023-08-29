@@ -1,8 +1,8 @@
-import { useExecution } from '@/hooks/useExecution';
-import { useExecutionStatus } from '@/hooks/useExecutionStatus';
+import { useExecution } from '@/hooks/babyagi/useExecution';
+import { useExecutionStatus } from '@/hooks/babyagi/useExecutionStatus';
 import { PlusIcon } from '@radix-ui/react-icons';
 import { FC } from 'react';
-import { translate } from '../../utils/translate';
+import { translate } from '../../../utils/translate';
 import { CollapsedButton } from './CollapsedButton';
 
 interface SidebarHeaderProps {

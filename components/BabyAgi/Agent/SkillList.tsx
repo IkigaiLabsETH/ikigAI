@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { SkillCard } from './SkillCard';
-import { SkillInfo } from '@/types';
+import { SkillInfo } from '@/types/babyagi';
 import { translate } from '@/utils/translate';
 
 export interface SkillsListProps {

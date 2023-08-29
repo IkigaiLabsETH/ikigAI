@@ -1,6 +1,6 @@
 import { getUserApiKey } from '@/utils/settings';
 import { FC, useEffect, useState } from 'react';
-import { translate } from '../../utils/translate';
+import { translate } from '../../../utils/translate';
 
 export const ProjectTile: FC = () => {
   const [showMessage, setShowMessage] = useState(false);

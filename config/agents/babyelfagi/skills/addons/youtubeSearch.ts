@@ -1,4 +1,4 @@
-import { AgentTask } from '@/types';
+import { AgentTask } from '@/types/babyagi';
 import { Skill } from '../skill';
 import { webSearch } from '../../tools/webSearch';
 

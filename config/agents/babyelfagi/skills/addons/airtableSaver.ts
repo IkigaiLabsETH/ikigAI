@@ -1,5 +1,5 @@
 import { Skill, SkillType } from '../skill';
-import { AgentTask } from '@/types';
+import { AgentTask } from '@/types/babyagi';
 
 export class AirtableSaver extends Skill {
   name = 'airtable_saver';

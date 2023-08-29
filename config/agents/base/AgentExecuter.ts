@@ -1,4 +1,4 @@
-import { AgentMessage, AgentTask } from '@/types';
+import { AgentMessage, AgentTask } from '@/types/babyagi';
 import { Printer } from '@/utils/print';
 
 export class AgentExecuter {

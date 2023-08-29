@@ -1,4 +1,4 @@
-import { AgentTask, LLMParams, AgentMessage } from '@/types';
+import { AgentTask, LLMParams, AgentMessage } from '@/types/babyagi';
 import { ChatOpenAI } from 'langchain/chat_models/openai';
 import { HumanChatMessage } from 'langchain/schema';
 import { v4 as uuidv4 } from 'uuid';

@@ -1,5 +1,5 @@
 import { AgentTask } from '@/types';
-import { webBrowsing } from '@/lib/agents/babyelfagi/tools/webBrowsing';
+import { webBrowsing } from 'config/agents/babyelfagi/tools/webBrowsing';
 import { Skill } from '../skill';
 
 // This skill is Specialized for web browsing

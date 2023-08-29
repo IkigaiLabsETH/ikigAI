@@ -1,4 +1,4 @@
-import { Block, MessageBlock } from '@/types';
+import { Block, MessageBlock } from '@/types/babyagi';
 import { CheckCircledIcon, CircleIcon } from '@radix-ui/react-icons';
 
 export interface AgentTaskStatusProps {

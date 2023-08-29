@@ -1,4 +1,4 @@
-import { AgentMessage, TaskOutputs } from '@/types'; // You need to define these types
+import { AgentMessage, TaskOutputs } from '@/types/babyagi'; // You need to define these types
 import { AgentExecuter } from '../base/AgentExecuter';
 import { SkillRegistry, TaskRegistry } from './registory';
 import { v4 as uuidv4 } from 'uuid';

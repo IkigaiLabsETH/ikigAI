@@ -1,5 +1,5 @@
 import { AIStreamCallbacks, createCallbacksTransformer } from 'ai';
-import { AgentMessage } from '@/types';
+import { AgentMessage } from '@/types/babyagi';
 
 export function AgentStream(callbacks?: AIStreamCallbacks) {
   const stream = new TransformStream();

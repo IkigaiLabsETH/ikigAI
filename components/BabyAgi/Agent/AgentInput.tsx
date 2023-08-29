@@ -36,7 +36,7 @@ const StopButton = ({ onClick }: { onClick: () => void }) => (
     className="rounded border border-neutral-500 bg-white px-4 py-2 text-black hover:opacity-80 dark:bg-neutral-900 dark:text-white md:top-0"
     onClick={onClick}
   >
-    <StopIcon className="mb-[2px] inline-block" /> {translate('Stop')}
+    <StopIcon className="mb-[2px] inline-block" /> 
   </button>
 );
 
@@ -45,7 +45,7 @@ const NewButton = ({ onClick }: { onClick: () => void }) => (
     className="rounded border border-neutral-500 bg-white px-4 py-2 text-black hover:opacity-80 dark:bg-neutral-900 dark:text-white md:top-0"
     onClick={onClick}
   >
-    <PlusIcon className="mb-[2px] inline-block" /> {translate('New')}
+    <PlusIcon className="mb-[2px] inline-block" /> 
   </button>
 );
 
@@ -159,21 +159,21 @@ export const AgentInput: FC<InputProps> = ({
       </div>
       <div className="px-3 pb-3 pt-2 text-center text-xs text-black/50 dark:text-white/30 md:px-4 md:pb-6 md:pt-3">
         <a
-          href="https://github.com/miurla/babyagi-ui"
+          href="https://github.com/"
           target="_blank"
           rel="noreferrer"
           className="underline"
         >
-          BabyAGI UI
+          AGENTS
         </a>
-        {' is designed to make it easier to run and develop with '}
+        {' are designed to make it easier to run and develop with '}
         <a
-          href="https://github.com/yoheinakajima/babyagi"
+          href="https://github.com/"
           target="_blank"
           rel="noreferrer"
           className="underline"
         >
-          babyagi
+          openAI
         </a>
         {' in a web app, like a ChatGPT.'}
       </div>

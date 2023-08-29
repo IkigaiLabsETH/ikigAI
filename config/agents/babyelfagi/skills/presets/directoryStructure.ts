@@ -1,4 +1,4 @@
-import { AgentTask } from '@/types';
+import { AgentTask } from '@/types/babyagi';
 import { Skill, SkillType } from '../skill';
 
 export class DirectoryStructure extends Skill {

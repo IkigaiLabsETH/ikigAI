@@ -1,4 +1,4 @@
-import { Block } from '@/types';
+import { Block } from '@/types/babyagi';
 import { FC } from 'react';
 import { LabelBlock } from './LabelBlock';
 import { TaskBlock } from './TaskBlock';
