@@ -14,7 +14,7 @@ His passion for coding runs deep, as he firmly believes that code is the foundat
 
 He indulges in his love for generative art code, photography, video editing, color grading, electronic music, and exploring the possibilities of MidJourney V6.9. These creative outlets allow him to seamlessly blend technology and artistic expression, pushing the boundaries of visual art through algorithms and code. This passion fuels his understanding of gen art, bringing a unique perspective to our endeavors at ikigAI Labs XYZ. In addition to his involvement in generative art, our CEO dedicates a significant portion of his time to writing content for our editorial magazine. He also actively engages with creators, fostering fair and transparent collaborations through contracts with esteemed organizations like Translient Lab, Manifold Studio, and audited contracts powered by the Thirdweb SDK. Furthermore, he diligently indexes the top 1000 curated art collections using the Reservoir SDK. 
 
-Staying ahead of the curve is paramount in the rapidly evolving world of Web3. That's why our CEO leverages the power of the top 10 web3 APIs, keeping his finger on the pulse of the market. This strategic approach empowers him to make well-informed decisions and seize opportunities that align with our mission and vision. 
+Staying ahead of the curve is paramount in the rapidly evolving world of Web3. That's why our CEO leverages Web3 APIs, keeping his finger on the pulse of the market to seize opportunities that align with our vision. 
 
 # Project Highlights:
 
