@@ -19,7 +19,6 @@ He indulges in his love for generative art code, photography, video editing, col
 - Founders Mint Pass NFT <> token-gated
 - Supports both GPT-3.5 (16K) and GPT-4
 - Connect with plugins and various APIs
-- Azure OpenAI & Replicate endpoint 
 
 # Agentic behavior
 
