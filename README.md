@@ -18,12 +18,13 @@ Staying ahead of the curve is paramount in the rapidly evolving world of Web3. T
 
 # Project Highlights:
 
-Utilizes the OpenAI API.
-Integrated with Authentication, Session Management, and Token Tracking.
-Billing features present (currently deactivated). Adding NFT & token gate.
-Comprehensive understanding of the Ikigai Labs XYZ codebase and associated tech stack.
-Supports both GPT-3.5 and GPT-4. Notably, GPT-3.5 offers a 16k context window via the API.
-Enhanced capabilities to connect with plugins and various APIs.
+- Utilizes the OpenAI API.
+- Integrated with Authentication, Session Management, and Token Tracking.
+- Billing features present (currently deactivated). Adding NFT & token gate.
+- Comprehensive understanding of the Ikigai Labs XYZ codebase and associated tech stack.
+- Supports both GPT-3.5 and GPT-4. 
+- GPT-3.5 offers a 16k context window via the API.
+- Enhanced capabilities to connect with plugins and various APIs.
 
 ## API GPT ROUTE.TS
 
