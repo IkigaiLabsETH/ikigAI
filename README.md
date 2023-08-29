@@ -1,4 +1,4 @@
-# ikigAI studio 420
+# ikigAI Labs XYZ
 
 In the era of permissionless systems, individuals can now exercise self-sovereignty over their data, empowering them with control and ownership. Code, at its core, is a medium through which ideas are expressed in the language of computers. While knowledge remains valuable, the advent of dedicated AI tools has shifted the emphasis towards critical thinking. These tools enable us to navigate vast amounts of data and extract meaningful insights. In this new paradigm, the ability to think critically and creatively becomes paramount.
 
@@ -8,9 +8,9 @@ In the era of permissionless systems, individuals can now exercise self-sovereig
 
 # GPT4.20 + MJ V6.9
 
-At ikigAI Labs XYZ, we have embarked on an exciting journey led by our visionary CEO, who is harnessing the power of AI to shape the future of our company in the next decade. With the help of a fine-tuned GPT4.20 model, our CEO is immersing himself in web3 knowledge, leveraging real-time data and cutting-edge art information obtained through API endpoints. For the past two decades, he has meticulously curated 420 places to Live The Life, ensuring that our Artist Residency offerings are nothing short of exceptional. 
+At ikigAI Labs XYZ, we have embarked on an exciting journey led by our visionary CEO, who is harnessing the power of AI to shape the future of our company in the next decade. With the help of a fine-tuned GPT4.20 model, our CEO is immersing himself in Web3 knowledge, leveraging real-time data and cutting-edge art information obtained through API endpoints. For the past two decades, he has meticulously curated 420 places to Live The Life, ensuring that our Artist Residency offerings are nothing short of exceptional. 
 
-His passion for coding runs deep, as he firmly believes that code is the foundation of everything. By consuming AI sdk's and api's, our CEO has accelerated his learning curve, allowing him to focus on the business logic and idea implementation. This approach has expedited our Minimum Viable Product (MVP) development.
+His passion for coding runs deep, as he firmly believes that code is the foundation of everything. By consuming AI SDK's and APIs, our CEO has accelerated his learning curve, allowing him to focus on the business logic and idea implementation. This approach has expedited our Minimum Viable Product (MVP) development.
 
 He indulges in his love for generative art code, photography, video editing, color grading, electronic music, and exploring the possibilities of MidJourney V6.9. These creative outlets allow him to seamlessly blend technology and artistic expression, pushing the boundaries of visual art through algorithms and code. This passion fuels his understanding of gen art, bringing a unique perspective to our endeavors at ikigAI Labs XYZ. In addition to his involvement in generative art, our CEO dedicates a significant portion of his time to writing content for our editorial magazine. He also actively engages with creators, fostering fair and transparent collaborations through contracts with esteemed organizations like Translient Lab, Manifold Studio, and audited contracts powered by the Thirdweb SDK. Furthermore, he diligently indexes the top 1000 curated art collections using the Reservoir SDK. 
 
@@ -42,42 +42,15 @@ Examples of what you might ask:
 - Create a track that sounds like it might come from Kanye West, hip-hop, soul samples, heavy drums, innovative melodies, experimental sounds, unusual effects, automation, modulating filters, distortion effects
 - Create a video of clownfish swimming in a coral reef, beautiful, 8k, perfect, award-winning, national geographic
 
-## Wen 🔥 Features (soon)
-
-- Prompt library
-- Organize chats into folders (with colors)
-- Filter chats and folders
-- Token count and pricing
-- YouTube, Midjourney, WhatsApp integration
-- Camera Capture and Generative Voice AI
-- Custom model parameters (e.g. presence_penalty)
-- Chat as user / assistant / system
-- Edit, reorder and insert any messages, anywhere
-- Chat title generator
-- Save chat automatically to local storage
-- Import / Export chat
-- Download chat (markdown / image / json)
-- Sync to Google Drive and/or AWS S3
-- Integration with Google Search API
-- Azure OpenAI endpoint support
-- Replicate endpoint support
-- Multiple language support (i18n)
-- Unlimited local storage (desktop)
-- Runs locally (desktop)
-
 # Agents: Leveraging the Power of LLMs
 
-The Generative Pre-trained Transformer (GPT) stands as a landmark in AI advancement over the past decade. While the capabilities of LLMs, like reasoning and understanding, are noteworthy, their full potential remains untapped.
-
-At the heart of LLMs lies agentic behavior. By tapping into their emergent skills and fostering an environment conducive to interaction, we can unlock the full prowess of models like GPT-4. ikigAI aims to empower LLMs beyond their inherent limitations by harnessing prompt engineering, vector databases, and API integrations.
-
-Agents apply logic and reason to influence their surroundings, be it through human interactions or tool usage. The LLM acts as the agent's cognitive core. This allows for the creation of dynamic agents by intertwining linguistic manipulation with a versatile API framework.
+The Generative Pre-trained Transformer (GPT) stands as a landmark in AI advancement over the past decade. While the capabilities of LLMs, like reasoning and understanding, are noteworthy, their full potential remains untapped. At the heart of LLMs lies agentic behavior. By tapping into their emergent skills and fostering an environment conducive to interaction, we can unlock the full prowess of models like GPT-4. ikigAI aims to empower LLMs beyond their inherent limitations by harnessing prompt engineering, vector databases, and API integrations. Agents apply logic and reason to influence their surroundings, be it through human interactions or tool usage. The LLM acts as the agent's cognitive core. This allows for the creation of dynamic agents by intertwining linguistic manipulation with a versatile API framework.
 
 Prompt engineering has proven effective against short-term memory and reasoning constraints. But, addressing long-term memory is more intricate. As updating the model isn't an option, an external storage system becomes imperative. Using LLMs to generate context-based summaries has its limitations, making vector databases an attractive solution.
 
 Vector databases, particularly with the prowess of Pinecone, offer rapid querying of vast data records. Such databases enable LLMs to access and store extensive information, effectively simulating long-term memory.
 
-Beyond prompt engineering and vector databases lies the challenge of agent interaction. APIs bridge this gap. Examples include:
+Note: Beyond prompt engineering and vector databases lies the challenge of agent interaction. APIs bridge this gap. Examples include:
 
 - ElevenLabs: text-to-speech & Pro Voice Cloning.
 - Google Search API: Web search and data retrieval.
@@ -87,11 +60,11 @@ Beyond prompt engineering and vector databases lies the challenge of agent inter
 
 Combining API tools and prompt engineering, we can enhance agents' environmental interactions. Achieving consistent function calls from LLMs is a challenge that the ReAct framework and vector databases can address. With the release of gpt-4-0613 and gpt-3.5-turbo-16k-0613 by OpenAI, we can harness native function calls and JSON fine-tuning. This synergy of prompt methods, vector databases, and API tools supercharges any model.
 
-# Embeddings and Their Application:
+# Embeddings:
 
 ChatGPT excels in general queries but struggles with web3-specific questions due to knowledge gaps and source citation issues. We address this with embeddings and vector search.
 
-# Introducing Supabase:
+## Supabase:
 
 Supabase, an open-source alternative to Firebase, offers a swift backend setup. Within minutes, projects are equipped with authentication, a Postgres database, instant APIs, storage, and real-time subscriptions. With security at its core, it simplifies sign-ups and data protection. Users can manage extensive files effortlessly and run custom codes without server hassles. Supabase fosters local development, scaling as required.
 
@@ -206,35 +179,3 @@ Implement conversational chat model with Langchain with the functions and test i
 
 ## Fine Tuning is dope AF. But models can only ever be as good as the data they are trained on. No matter how intelligent the LLM is, retrieving the wrong thing in context will surely lead to hallucinations. Garbage in, garbage out.
 
-
-### 1. **Cost vs. Efficiency**:
-
-**Advantages of Fine-Tuning**:
-- **Precision**: Fine-tuned models, as you've noted, can produce more accurate and stylistically consistent results, especially when the desired outputs are well-defined.
-  
-**Disadvantages of Fine-Tuning**:
-- **Cost**: The major disadvantage is the cost associated with both the tuning and then the continued use of these specialized models. 
-
-### 2. **Effort of Fine-Tuning vs. Better Prompting**:
-
-Prompt engineering and chaining are strategies that can be effective without the added costs of fine-tuning. However, there are use-cases where no amount of prompt engineering can achieve the consistency and precision of a fine-tuned model, especially if the domain is narrow and specific.
-
-### 3. **Deprecation Concerns**:
-
-If OpenAI (or any model provider) decides to deprecate a model version, any investment (financial, time, data) into fine-tuning that model may become obsolete. This could be particularly concerning for businesses that have built products or services around the specific behaviors of a fine-tuned model.
-
-### 4. **Potential Strategies and Solutions**:
-
-- **Hybrid Approach**: Combining the strengths of fine-tuning with prompt engineering might be an optimal solution for many. The model can be fine-tuned to a certain extent to understand a domain, and then precise prompting can be used to extract the required information or response style.
-  
-- **Investment Analysis**: Before diving into fine-tuning, businesses or individuals should conduct a cost-benefit analysis. If the added precision from fine-tuning results in significantly better user experience, customer satisfaction, or other tangible benefits, then the costs might be justifiable.
-  
-- **Stay Updated**: Organizations that rely heavily on a particular model should stay in close communication with the model provider. This way, they can get early information about potential deprecations or changes and plan accordingly.
-
-### 5. **Future Trends**:
-
-As AI continues to evolve, we'll likely see shifts in pricing models, capabilities, and fine-tuning methodologies. Moreover, competition might drive costs down, or new business models might emerge, allowing users to fine-tune without the significant markup.
-
-### Conclusion:
-
-The decision to invest in fine-tuning versus other strategies depends heavily on the specific use-case, budget, and long-term goals. While fine-tuning offers unparalleled precision in certain scenarios, it's essential to weigh its benefits against its costs and potential long-term implications.
