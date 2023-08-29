@@ -65,7 +65,7 @@ Examples of what you might ask:
 - Unlimited local storage (desktop)
 - Runs locally (desktop)
 
-# How: Leveraging the Power of Large Language Models
+# Agents: Leveraging the Power of LLMs
 
 The Generative Pre-trained Transformer (GPT) stands as a landmark in AI advancement over the past decade. While the capabilities of LLMs, like reasoning and understanding, are noteworthy, their full potential remains untapped.
 
