@@ -1,3 +1,11 @@
+"use client";
+
+import Layout from "@/components/Layout";
+import Chat from "@/components/Chat";
+import Question from "@/components/Question";
+import Answer from "@/components/Answer";
+import Code from "@/components/Code";
+
 import { AgentView } from '@/components/BabyAgi/Agent/AgentView';
 import { Sidebar } from '@/components/BabyAgi/Sidebar/Sidebar';
 import Head from 'next/head';
@@ -42,6 +50,7 @@ function Baby() {
     setShowSidebar(!showSidebar);
     saveSidebarState(!showSidebar);
   };
+
 
   return (
     <>
@@ -96,4 +105,3 @@ function Baby() {
 
 
 
-export default Baby;
