@@ -8,7 +8,7 @@ In the era of permissionless systems, individuals can now exercise self-sovereig
 
 # GPT4.20 + MJ V6.9
 
-At ikigAI Labs XYZ, we have embarked on an exciting journey led by our visionary CEO, who is harnessing the power of AI to shape the future of our company in the next decade. With the help of a fine-tuned GPT4.20 model, our CEO is immersing himself in web3 knowledge, leveraging real-time data and cutting-edge art information obtained through API endpoints. For the past two decades, he has meticulously curated the top 1000 places to Live The Life, ensuring that our Artist Residency offerings are nothing short of exceptional. 
+At ikigAI Labs XYZ, we have embarked on an exciting journey led by our visionary CEO, who is harnessing the power of AI to shape the future of our company in the next decade. With the help of a fine-tuned GPT4.20 model, our CEO is immersing himself in web3 knowledge, leveraging real-time data and cutting-edge art information obtained through API endpoints. For the past two decades, he has meticulously curated 420 places to Live The Life, ensuring that our Artist Residency offerings are nothing short of exceptional. 
 
 His passion for coding runs deep, as he firmly believes that code is the foundation of everything. By consuming AI sdk's and api's, our CEO has accelerated his learning curve, allowing him to focus on the business logic and idea implementation that drive our success. This streamlined approach has expedited our Minimum Viable Product (MVP) development. 
 
