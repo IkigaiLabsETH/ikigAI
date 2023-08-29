@@ -16,39 +16,12 @@ He indulges in his love for generative art code, photography, video editing, col
 
 # Project Highlights:
 
-- Utilizes the OpenAI API.
-- Integrated with Authentication, Session Management, and Token Tracking.
-- Billing features present (currently deactivated). Adding NFT & token gate.
-- Comprehensive understanding of the Ikigai Labs XYZ codebase & tech stack.
-- Supports both GPT-3.5 (16K) and GPT-4. 
-- Connect with plugins and various APIs.
-- YouTube, Midjourney, WhatsApp integration
-- Camera Capture and Generative Voice AI
-- Save chat automatically to local storage
-- Import / Export / Download chat
-- Azure OpenAI endpoint support
-- Replicate endpoint support
+- Founders Mint Pass NFT <> token-gated
+- Supports both GPT-3.5 (16K) and GPT-4
+- Connect with plugins and various APIs
+- Azure OpenAI & Replicate endpoint 
 
-## API GPT ROUTE.TS
-
-This is an experimental project using OpenAI GPT Plugins and Replicate to combine all AI APis into one.
-
-Instead of using separate interfaces for image generation, video generation, audio generation, and general text natural language processing, this app combines all of them together into a single prompt.
-
-APIs currently supported:
-- Text to image
-- Text to video
-- Text to audio
-- General natural language processing
-
-Examples of what you might ask:
-
-- Create a 4-day travel itinerary for Paris.
-- Create an image of someone in their production studio creating beats, futuristic, dim lighting, new york
-- Create a track that sounds like it might come from Kanye West, hip-hop, soul samples, heavy drums, innovative melodies, experimental sounds, unusual effects, automation, modulating filters, distortion effects
-- Create a video of clownfish swimming in a coral reef, beautiful, 8k, perfect, award-winning, national geographic
-
-# Agents: Leveraging the Power of LLMs
+# Agentic behavior
 
 The Generative Pre-trained Transformer (GPT) stands as a landmark in AI advancement over the past decade. While the capabilities of LLMs, like reasoning and understanding, are noteworthy, their full potential remains untapped. At the heart of LLMs lies agentic behavior. By tapping into their emergent skills and fostering an environment conducive to interaction, we can unlock the full prowess of models like GPT-4. ikigAI aims to empower LLMs beyond their inherent limitations by harnessing prompt engineering, vector databases, and API integrations. Agents apply logic and reason to influence their surroundings, be it through human interactions or tool usage. The LLM acts as the agent's cognitive core. This allows for the creation of dynamic agents by intertwining linguistic manipulation with a versatile API framework.
 
@@ -68,11 +41,7 @@ Combining API tools and prompt engineering, we can enhance agents' environmental
 
 # Embeddings:
 
-ChatGPT excels in general queries but struggles with web3-specific questions due to knowledge gaps and source citation issues. We address this with embeddings and vector search.
-
-## Supabase:
-
-Supabase, an open-source alternative to Firebase, offers a swift backend setup. Within minutes, projects are equipped with authentication, a Postgres database, instant APIs, storage, and real-time subscriptions. With security at its core, it simplifies sign-ups and data protection. Users can manage extensive files effortlessly and run custom codes without server hassles. Supabase fosters local development, scaling as required.
+ChatGPT excels in general queries but struggles with web3-specific questions due to knowledge gaps and source citation issues. We address this with embeddings and vector search. Supabase, an open-source alternative to Firebase, offers a swift backend setup. Within minutes, projects are equipped with authentication, a Postgres database, instant APIs, storage, and real-time subscriptions. With security at its core, it simplifies sign-ups and data protection. Users can manage extensive files effortlessly and run custom codes without server hassles. Supabase fosters local development, scaling as required.
 
 https://github.com/IkigaiLabsETH/supabase-ai/
 
@@ -103,32 +72,12 @@ https://github.com/IkigaiLabsETH/supabase-ai/
 - [ ] next 13 app dir
 - [ ] vercel ai sdk
 
-
-# Why OpenAI Edge
-
-A TypeScript module for querying OpenAI's API using `fetch` (a standard Web API)
-instead of `axios`. This is a drop-in replacement for the official `openai`
-module (which has `axios` as a dependency).
-
-As well as reducing the bundle size, removing the dependency means we can query
-OpenAI from edge environments. Edge functions such as Next.js Edge API Routes
-are very fast and, unlike lambda functions, allow streaming data to the client.
-
-The latest version of this module has feature parity with the official `v3.3.0`.
-
-> **Update July 2023:** The official `openai` library will use `fetch` in v4,
-> hopefully making `openai-edge` redundant. You can try it in beta now, more
-> info here: https://github.com/openai/openai-node/discussions/182
-V4 is out now! https://github.com/openai/openai-node/blob/v4/api.md
-
-**Node version 18.x.x**
-
 // consider for auth? https://clerk.com/docs/quickstarts/nextjs
 
 
-## WTF is FT GPT 3.5 (scale)
+# Fine tuning
 
-Fine-tuning for GPT-3.5 is a game-changer. Price is bit expensive though. It's 4.20 times more expensive than the base gpt3.5 model. Here are a few examples of applications that will benefit from this development:
+Fine-tuning for GPT-3.5 is a game-changer. Price is bit expensive though. It's 4.20 times more expensive than the base gpt3.5 model. Fine Tuning is dope AF. But models can only ever be as good as the data they are trained on. No matter how intelligent the LLM is, retrieving the wrong thing in context will surely lead to hallucinations. Garbage in, garbage out. Here are a few examples of applications that will benefit from this development:
 
 - Content Creation: 
 Tailored for our LiveTheLifeTV Gen Art, Photography & Travel Magazine.
@@ -161,7 +110,7 @@ TLDR: https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates
 
 **3. A Marketplace for AI Brilliance:** Imagine a world where you can trade AI tools as you would collectible cards. With NFTs, that's our reality. We're setting the stage for a bustling marketplace where AI models become tokens of trade. For researchers, developers, and innovators, this means more than just access; it's a space to collaborate, innovate, and even earn from their creations.
 
-# Scale Photography 10K photos
+# Scale AI Photography with 10K images
 
 We’re working with Scale to extend the benefits of fine-tuning capabilities based on photography
 
@@ -181,7 +130,4 @@ Implement a hard-coded function, compare outcome.
 ### Execute use case 2:
 Implement 3 functions and test them with different prompts.
 Implement conversational chat model with Langchain with the functions and test it with a prompt with several requests.
-
-
-## Fine Tuning is dope AF. But models can only ever be as good as the data they are trained on. No matter how intelligent the LLM is, retrieving the wrong thing in context will surely lead to hallucinations. Garbage in, garbage out.
 
