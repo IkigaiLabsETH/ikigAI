@@ -19,9 +19,10 @@ He indulges in his love for generative art code, photography, video editing, col
 - Founders Mint Pass NFT <> token-gated
 - Supports both GPT-3.5 (16K) and GPT-4
 - Connect with plugins and various APIs
-- Focus on Fine-Tuning AI Models
-- Leverage context through embeddings
-- Set up dedicated AI agent flows
+- Smart Prompt Engineering is key tbh
+- Focus on Fine-Tuning AI Model for Web3
+- Web3 context: PineCone vector database 
+- Set up dedicated AI agent Interactions
 
 # Agentic behavior
 
