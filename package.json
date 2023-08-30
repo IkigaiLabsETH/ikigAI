@@ -93,7 +93,7 @@
     "formidable": "^2.1.1",
     "framer-motion": "^10.12.18",
     "i": "^0.3.7",
-    "langchain": "0.0.56",
+    "langchain": "^0.0.137",
     "lucide-react": "0.129.0",
     "mammoth": "^1.5.1",
     "millify": "^6.1.0",
