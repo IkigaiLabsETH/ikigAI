@@ -1,6 +1,6 @@
 # ikigAI Labs XYZ
 
-In the era of permissionless systems, individuals can now exercise self-sovereignty over their data, empowering them with control and ownership. Code, at its core, is a medium through which ideas are expressed in the language of computers. While knowledge remains valuable, the advent of dedicated AI tools has shifted the emphasis towards critical thinking. These tools enable us to navigate vast amounts of data and extract meaningful insights. In this new paradigm, the ability to think critically and creatively becomes paramount.
+Code, at its core, is a medium through which ideas are expressed in the language of computers. While knowledge remains valuable, the advent of dedicated AI tools has shifted the emphasis towards critical thinking. These tools enable us to navigate vast amounts of data and extract meaningful insights. In this new paradigm, the ability to think critically and creatively becomes paramount.
 
 <p align="left">
     <a href="https://livethelife.tv" target="_blank"><img src="public/other/apple-touch-icon.png" alt="IkigaiLabsXYZ" width="100" /></a>
@@ -100,6 +100,8 @@ Property suggestions near worldclass surf.
 Detailed weather analyses for surfers or snowboarders.
 
 TLDR: https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates
+
+## In the era of permissionless systems, individuals can now exercise self-sovereignty over their data, empowering them with control and ownership. 
 
 # Provenance 
 
