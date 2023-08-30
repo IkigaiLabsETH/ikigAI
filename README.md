@@ -1,6 +1,6 @@
 # ikigAI ChadGPT
 
-### At its very essence, code serves as the canvas where thoughts and concepts are painted using the dialect of machines. We're venturing into the realm of AI chadbots, leveraging LLMs for on-chain curation, facilitating conversations among collectors, and empowering artistic creation. #livethelife #findyourikigai #chadgpt
+### At its very essence, code serves as the canvas where thoughts and concepts are painted using the dialect of machines. We're venturing into the realm of AI & LLMs for on-chain curation and empowering artistic creation.
 
 <p align="left">
     <a href="https://livethelife.tv" target="_blank"><img src="public/other/apple-touch-icon.png" alt="IkigaiLabsXYZ" width="100" /></a>
