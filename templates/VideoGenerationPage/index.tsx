@@ -7,6 +7,10 @@ import Answer from "@/components/Answer";
 import Video from "@/components/Video";
 import { useOpenAI } from "app/context/OpenAIProvider";
 
+import Code from "@/components/Code";
+
+import { itemsCode, code, actions } from "@/mocks/code";
+
 const VideoGenerationPage = () => {
     const { addMessage, messages } = useOpenAI()
     console.log(messages)
