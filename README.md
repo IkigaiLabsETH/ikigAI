@@ -2,13 +2,11 @@
 
 ### At its very essence, code serves as the canvas where thoughts and concepts are painted using the dialect of machines. We're venturing into the realm of AI assistants, aiming to revolutionize on-chain curation, facilitate conversations among collectors, and empower artistic creation. #livethelife #findyourikigai
 
-Combining API tools and prompt engineering, we can enhance agents' interactions. Achieving consistent function calls from LLMs is a challenge that the React framework and vector databases can address. We can harness native function calls and JSON fine-tuning. Prompt design + vector databases + APIs = (3,3)
-
 <p align="left">
     <a href="https://livethelife.tv" target="_blank"><img src="public/other/apple-touch-icon.png" alt="IkigaiLabsXYZ" width="100" /></a>
 </p>
 
-# GPT4.20 + MJ V6.9
+# Prompt Design
 
 At ikigAI Labs XYZ, we have embarked on an exciting journey led by our visionary CEO, who is harnessing the power of AI to shape the future of our company in the next decade. With the help of a fine-tuned GPT4.20 model, our CEO is immersing himself in Web3 knowledge, leveraging real-time data and cutting-edge art information obtained through API endpoints. For the past two decades, he has meticulously curated 420 places to Live The Life, ensuring that our Artist Residency offerings are nothing short of exceptional. 
 
