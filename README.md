@@ -2,7 +2,7 @@
 
 ### At its very essence, code serves as the canvas where thoughts and concepts are painted using the dialect of machines. We're venturing into the realm of AI assistants, aiming to revolutionize on-chain curation, facilitate conversations among collectors, and empower artistic creation. #livethelife #findyourikigai
 
-Combining API tools and prompt engineering, we can enhance agents' environmental interactions. Achieving consistent function calls from LLMs is a challenge that the ReAct framework and vector databases can address. With the release of gpt-4-0613 and gpt-3.5-turbo-16k-0613 by OpenAI, we can harness native function calls and JSON fine-tuning. Prompt design + vector databases + APIs = (3,3)
+Combining API tools and prompt engineering, we can enhance fine art agents' interactions. Achieving consistent function calls from LLMs is a challenge that the ReAct framework and vector databases can address. With the release of gpt-4-0613 and gpt-3.5-turbo-16k-0613 by OpenAI, we can harness native function calls and JSON fine-tuning. Prompt design + vector databases + APIs = (3,3)
 
 <p align="left">
     <a href="https://livethelife.tv" target="_blank"><img src="public/other/apple-touch-icon.png" alt="IkigaiLabsXYZ" width="100" /></a>
