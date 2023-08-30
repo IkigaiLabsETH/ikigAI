@@ -39,7 +39,11 @@
     "bot",
     "chatbot",
     "discord",
-    "discordbot"
+    "discordbot",
+    "prompt engineering",
+    "machine learning",
+    "embeddings",
+    "vectorstores"
   ],
   "dependencies": {
     "@anthropic-ai/sdk": "^0.6.1",
