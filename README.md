@@ -86,11 +86,11 @@ TLDR: https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates
 
 # Provenance 
 
-**1. Authenticity & Ownership:** Our AI, powered by the likes of OpenAI's ChatGPT, can craft anything from engaging text to mesmerizing images and soulful music. But with great power comes the question: who truly owns these digital masterpieces? NFTs are our answer. With them, we can stamp a seal of originality on every AI-created piece, giving artists and creators the undisputed title to their digital works.
+Our AI, powered by the likes of OpenAI's ChatGPT, can craft anything from engaging text to mesmerizing images and soulful music. But with great power comes the question: who truly owns these digital masterpieces? NFTs are our answer. With them, we can stamp a seal of originality on every AI-created piece, giving artists and creators the undisputed title to their digital works.
 
-**2. Elevating Value with Digital Rarity:** Art isn't just about expression; it's also about value. In a digital age where replication is just a click away, NFTs are our game-changers. They allow us to craft exclusive, limited-edition AI artworks. For artists and creators, this isn't just about standing out; it's an opportunity to monetize their genius, offering collectors a piece of digital rarity that may or may not appreciate in value.
+Art isn't just about expression; it's also about value. In a digital age where replication is just a click away, NFTs are our game-changers. They allow us to craft exclusive, limited-edition AI artworks. For artists and creators, this isn't just about standing out; it's an opportunity to monetize their genius, offering collectors a piece of digital rarity that may or may not appreciate in value.
 
-**3. A Marketplace for AI Brilliance:** Imagine a world where you can trade AI tools as you would collectible cards. With NFTs, that's our reality. We're setting the stage for a bustling marketplace where AI models become tokens of trade. For researchers, developers, and innovators, this means more than just access; it's a space to collaborate, innovate, and even earn from their creations.
+Imagine a world where you can trade AI tools as you would collectible cards. With NFTs, that's our reality. We're setting the stage for a marketplace where AI models become tokens of trade. For researchers, developers, and innovators, this means more than just access; it's a space to collaborate, innovate, and even earn from their creations.
 
 # Scale AI Photography with 10K images
 
