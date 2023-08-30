@@ -1,6 +1,6 @@
 # ikigAI Labs XYZ
 
-Code, at its core, is a medium through which ideas are expressed in the language of computers.
+### Code, at its core, is a medium through which ideas are expressed in the language of computers.
 
 <p align="left">
     <a href="https://livethelife.tv" target="_blank"><img src="public/other/apple-touch-icon.png" alt="IkigaiLabsXYZ" width="100" /></a>
