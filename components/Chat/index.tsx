@@ -89,12 +89,12 @@ const Chat = ({
                         generationMessage={generationMessage}
                         placeholder="Yo stoopid"
                         onConfirm={() => onAddMessage(message)}
-                        // image="/images/file-name.jpg"
-                        // files={[
-                        //     "file-name.pdf",
-                        //     "file-name.pdf",
-                        //     "file-name.pdf",
-                        // ]}
+                        image="/images/file-name.jpg"
+                         files={[
+                             "file-name.pdf",
+                             "file-name.pdf",
+                             "file-name.pdf",
+                         ]}
                     />
                     <RightSidebar
                         typeChat={typeChat}

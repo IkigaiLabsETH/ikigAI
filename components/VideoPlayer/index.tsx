@@ -1,13 +1,19 @@
 import Link from "next/link";
 import Image from "@/components/Image";
 import Icon from "@/components/Icon";
+import { useState } from "react";
 
 type VideoPlayerProps = {
     image?: any;
     logoHide?: boolean;
 };
 
-const VideoPlayer = ({ image, logoHide }: VideoPlayerProps) => (
+const VideoPlayer = ({ image, logoHide }: VideoPlayerProps) => {
+    const [isPlaying, setIsPlaying] = useState(false);
+    const handlePlayPause = () => {
+        setIsPlaying(!isPlaying);
+    };
+
     <div className="relative aspect-video overflow-hidden rounded-2xl md:aspect-[1.35]">
         {!logoHide && (
             <Link
@@ -63,10 +69,10 @@ const VideoPlayer = ({ image, logoHide }: VideoPlayerProps) => (
         </div>
         <div className="absolute left-0 right-0 bottom-12 px-2 text-center lg:hidden">
             <div className="inline-block px-2 py-0.5 bg-n-1 rounded text-body-1 font-semibold dark:bg-n-6 dark:text-n-2">
-                ikigAI has created a new, innovative avatar creator.
+                ikigAI created an avatar creator.
             </div>
         </div>
     </div>
-);
+};
 
 export default VideoPlayer;
