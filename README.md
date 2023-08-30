@@ -82,7 +82,7 @@ TLDR: https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates
 
 ## In the era of permissionless systems, individuals can now exercise self-sovereignty over their data, empowering them with control and ownership. 
 
-Between 2015 and 2017, pioneering endeavors surfaced, marking digital art and media on the Ethereum and Bitcoin blockchains. Come 2018, the ERC-721 token standard was set in stone, paving the way for a revolutionary web3-oriented creative economy centralized on the production and gathering of NFTs. This sparked a wave of innovation, birthing hundreds of marketplaces, mobilizing thousands of creators and aficionados, and ushering in millions of NFTs in the subsequent half-decade.
+Between 2015 and 2017, pioneering endeavors surfaced, marking digital art and media on the Ethereum and Bitcoin blockchains. Come 2018, the ERC-721 token standard was set in stone, paving the way for a revolutionary web3-oriented creative economy centralized on the production and gathering of NFTs. This sparked a wave of innovation, birthing hundreds of marketplaces, mobilizing thousands of creators and aficionados, and ushering in millions of NFTs in the subsequent half-decade. onchain is the next online
 
 # Provenance 
 
