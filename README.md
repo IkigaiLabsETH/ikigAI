@@ -54,25 +54,6 @@ https://github.com/IkigaiLabsETH/supabase-ai/
 
 - [Pinecone](https://www.pinecone.io) - Hosted vector search
 
-#### Supported Files
-- [x] .pdf
-- [x] .docx
-- [x] .md
-- [x] .txt
-- [x] .png
-- [x] .jpg
-- [x] .html
-- [x] .json
-
-#### Coming Soon
-- [ ] .csv
-- [ ] .pptx
-- [ ] notion
-- [ ] next 13 app dir
-- [ ] vercel ai sdk
-
-// consider for auth? https://clerk.com/docs/quickstarts/nextjs
-
 
 # Fine tuning
 
