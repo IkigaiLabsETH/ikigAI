@@ -1,6 +1,6 @@
 # ikigAI Labs XYZ
 
-Code, at its core, is a medium through which ideas are expressed in the language of computers. While knowledge remains valuable, the advent of dedicated AI tools has shifted the emphasis towards critical thinking. These tools enable us to navigate vast amounts of data and extract meaningful insights. In this new paradigm, the ability to think critically and creatively becomes paramount.
+Code, at its core, is a medium through which ideas are expressed in the language of computers.
 
 <p align="left">
     <a href="https://livethelife.tv" target="_blank"><img src="public/other/apple-touch-icon.png" alt="IkigaiLabsXYZ" width="100" /></a>
@@ -10,7 +10,7 @@ Code, at its core, is a medium through which ideas are expressed in the language
 
 At ikigAI Labs XYZ, we have embarked on an exciting journey led by our visionary CEO, who is harnessing the power of AI to shape the future of our company in the next decade. With the help of a fine-tuned GPT4.20 model, our CEO is immersing himself in Web3 knowledge, leveraging real-time data and cutting-edge art information obtained through API endpoints. For the past two decades, he has meticulously curated 420 places to Live The Life, ensuring that our Artist Residency offerings are nothing short of exceptional. 
 
-His passion for coding runs deep, as he firmly believes that code is the foundation of everything. By consuming AI SDK's and APIs, our CEO has accelerated his learning curve, allowing him to focus on the business logic and idea implementation. This approach has expedited our Minimum Viable Product (MVP) development.
+His passion for coding runs deep, as he firmly believes that code is the foundation of everything. By consuming AI SDK's and APIs, our CEO has accelerated his learning curve, allowing him to focus on the business logic and idea implementation. This approach has expedited our Minimum Viable Product (MVP) development. Dedicated AI tools enable him to navigate vast amounts of data and extract meaningful insights. In this new paradigm, the ability to think creatively becomes paramount.
 
 He indulges in his love for generative art code, photography, video editing, color grading, electronic music, and exploring the possibilities of MidJourney V6.9. These creative outlets allow him to seamlessly blend technology and artistic expression, pushing the boundaries of visual art through algorithms and code. This passion fuels his understanding of gen art, bringing a unique perspective to our endeavors at ikigAI Labs XYZ. In addition to his involvement in generative art, our CEO dedicates a significant portion of his time to writing content for our editorial magazine. He also actively engages with creators, fostering fair and transparent collaborations through contracts with esteemed organizations like Translient Lab, Manifold Studio, and audited contracts powered by the Thirdweb SDK. Furthermore, he diligently indexes the top 1000 curated art collections using the Reservoir SDK. 
 
