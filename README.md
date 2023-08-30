@@ -44,7 +44,7 @@ ChatGPT excels in general queries but struggles with web3-specific questions due
 
 https://github.com/IkigaiLabsETH/supabase-ai/
 
-## Chat with any Document or Website
+### Chat with any Document or Website
 > Train your own custom GPT
 
 - Train on specific websites that you define
