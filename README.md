@@ -57,7 +57,7 @@ https://github.com/IkigaiLabsETH/supabase-ai/
 
 # Fine tuning
 
-Fine-tuning for GPT-3.5 is a game-changer. Price is bit expensive though. It's 4.20 times more expensive than the base gpt3.5 model. Fine Tuning is dope AF. But models can only ever be as good as the data they are trained on. No matter how intelligent the LLM is, retrieving the wrong thing in context will surely lead to hallucinations. Garbage in, garbage out. Here are a few examples of applications that will benefit from this development:
+Fine-tuning for GPT-3.5 is a game-changer. Price is bit expensive though. It's 4.20 times more expensive than the base gpt3.5 model. Fine Tuning is dope AF. But models can only ever be as good as the data they are trained on. No matter how intelligent the LLM is, retrieving the wrong thing in context will surely lead to hallucinations. Garbage in, garbage out. Here are a few examples:
 
 - Content Creation: 
 Tailored for our LiveTheLifeTV Gen Art, Photography & Travel Magazine.
