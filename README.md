@@ -1,4 +1,4 @@
-# ikigAI Labs XYZ
+# ikigAI ChadGPT
 
 ### At its very essence, code serves as the canvas where thoughts and concepts are painted using the dialect of machines. We're venturing into the realm of AI assistants, aiming to revolutionize on-chain curation, facilitate conversations among collectors, and empower artistic creation. #livethelife #findyourikigai
 
