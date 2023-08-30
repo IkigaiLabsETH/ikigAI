@@ -92,12 +92,12 @@ Art isn't just about expression; it's also about value. In a digital age where r
 
 Imagine a world where you can trade AI tools as you would collectible cards. With NFTs, that's our reality. We're setting the stage for a marketplace where AI models become tokens of trade. For researchers, developers, and innovators, this means more than just access; it's a space to collaborate, innovate, and even earn from their creations.
 
-# Scale AI Photography with 10K images
+# MVP 1.0 Midjourney AI Photography
 
-We’re working with Scale to extend the benefits of fine-tuning capabilities based on photography
+We’re working with Scale to extend the benefits of fine-tuning capabilities based on 10K curated photos. We enjoyed the early days of playing around with Midjourney, and have been working on a huge database with prompt design for MJ. Now we want to fine-tune the outputs with a custom model trained on these 10K images. We'll make sure the agents take on the task of creating good prompts
 
 With https://dashboard.scale.com/nucleus
 
-# MVP Function calling: Flights 
+# MVP 2.0 Function calling: Artist Residencies
 
 This is a huge unlock imo. You can find the code for setting up and running the experiment here: https://github.com/daveebbelaar/langchain-experiments/blob/main/openai-functions/openai_function_calling.py
