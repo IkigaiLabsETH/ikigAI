@@ -35,6 +35,8 @@ Vector databases, particularly with the prowess of Pinecone, offer rapid queryin
 - Hugging Face: Access to NLP models and transformers.
 - MidJourney & Dall-E: Image generation from text.
 - OpenAI's GPT API: Text generation using GPT-4.
+- ChadGPT: Grammarly for Smart Contracts; WIP
+- Trained with 169 smart contract vulnerabilities and fixes.
 
 # Embeddings:
 
