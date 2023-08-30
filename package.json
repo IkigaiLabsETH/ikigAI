@@ -45,6 +45,7 @@
     "@anthropic-ai/sdk": "^0.6.1",
     "@chakra-ui/next-js": "^2.1.4",
     "@chakra-ui/react": "^2.7.1",
+    "@dqbd/tiktoken": "^1.0.7",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@headlessui/react": "^1.7.15",
