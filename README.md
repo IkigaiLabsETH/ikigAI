@@ -1,6 +1,6 @@
 # ikigAI ChadGPT
 
-### Code serves as the canvas where thoughts and concepts are painted using the dialect of machines.
+### Code serves as the canvas where concepts are painted using the dialect of machines.
 
 <p align="left">
     <a href="https://livethelife.tv" target="_blank"><img src="public/other/apple-touch-icon.png" alt="IkigaiLabsXYZ" width="100" /></a>
