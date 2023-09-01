@@ -250,4 +250,10 @@ export const historyChat = [
         color: "#FF66C2",
         url: "/movies",
     },
+    {
+        id: "9",
+        title: "GPT",
+        color: "#FF66C2",
+        url: "/gpt",
+    },
 ];
