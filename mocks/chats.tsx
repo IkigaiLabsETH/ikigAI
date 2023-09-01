@@ -256,4 +256,10 @@ export const historyChat = [
         color: "#FF66C2",
         url: "/gpt",
     },
+    {
+        id: "10",
+        title: "ETH",
+        color: "#FF66C2",
+        url: "/eth",
+    },
 ];
