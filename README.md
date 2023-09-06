@@ -68,6 +68,7 @@ Vector databases, particularly with the prowess of Pinecone, offer rapid queryin
 - Llama-2-70b-chat: pre-trained and fine-tuned
 - ChadGPT: Grammarly for Smart Contracts; WIP
 - Trained with 169 smart contract vulnerabilities and fixes.
+- Falcon - 180 Billion parameters - 3.5 Trillion tokens
 
 # Embeddings:
 
