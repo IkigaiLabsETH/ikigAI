@@ -2,9 +2,7 @@
 
 ### Code serves as the canvas where concepts are painted using the dialect of machines.
 
-"At ikigAI Labs XYZ, we're revolutionizing the intersection of art and technology. Led by our CEO—an expert in Web3, AI, and generative art—we offer exceptional Artist Residencies, curated in 420 exclusive locations. Our GPT-4.20 model and cutting-edge SDKs streamline business logic, freeing us to innovate in the Web3 space. With NFT-enabled digital art and smart contracts, we're not just pushing creative boundaries, we're also setting new standards for fair collaborations. Generative art is unique as it taps into algorithms, AI, machine learning, crypto, blockchains, and computing."
-
-Today, culture is largely influenced by tech and the art being made reflects that.."
+"At ikigAI Labs XYZ, we're revolutionizing the intersection of art and technology. Led by our CEO—an expert in Web3, AI, and generative art—we offer exceptional Artist Residencies, curated in 420 exclusive locations. Our GPT-4.20 model and cutting-edge SDKs streamline business logic, freeing us to innovate in the Web3 space. With NFT-enabled digital art and smart contracts, we're not just pushing creative boundaries, we're also setting new standards for fair collaborations. Generative art is unique as it taps into algorithms, AI, machine learning, crypto, blockchains, and computing. Today, culture is largely influenced by tech and the art being made reflects that.."
 
 <p align="left">
     <a href="https://livethelife.tv" target="_blank"><img src="public/other/apple-touch-icon.png" alt="IkigaiLabsXYZ" width="100" /></a>
