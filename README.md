@@ -132,6 +132,88 @@ We’re working with Scale to extend the benefits of fine-tuning capabilities ba
 
 With https://dashboard.scale.com/nucleus
 
+# Grumpy Startup Dream Team
+
+## ChatGPT-powered Tweets
+
+### Training ChatGPT Instances:
+**Common Data**: Use a base dataset that covers general startup terminology and grumpy cat memes to ensure coherence across characters.
+
+**Character-specific Data**: Fine-tune each instance with datasets relevant to each role, focusing on their expertise, tone, and style.
+
+### Tone and Style:
+**CEO Cat (Grumpy, authoritative)**
+- Tweets about leadership, business strategies, and company milestones.
+- Example: "Another day, another dollar. If only it wasn't so grumpy. #CEOGrumps"
+
+**CTO Cat (Tech-savvy, frustrated with tech issues)**
+- Tweets about tech developments, coding tips, and tech rants.
+- Example: "Debugging this code is like trying to find a needle in a haystack. #CTOGrumps"
+
+**CFO Cat (Money-minded, cautious)**
+- Tweets about financial tips, market analysis, and budgeting.
+- Example: "Another budget meeting. Let's just say I'm not feeling optimistic. #CFOGrumps"
+
+**CMO Cat (Creative, slightly cynical about trends)**
+- Tweets about marketing strategies, social media tips, and trends.
+- Example: "Another day, another marketing trend to grump about. #CMOGrumps"
+
+**Dev Cat (Coding wizard, grumpy about bugs)**
+- Tweets about programming challenges, new features, and debugging.
+- Example: "If only writing code was as easy as grumping about it. #DevGrumps"
+
+**HR Cat (Empathetic but grumpy about office politics)**
+- Tweets about team building, employee well-being, and workplace culture.
+- Example: "Dealing with office politics is the grumpiest part of the job. #HRGrumps"
+
+### Execution Timeline
+- **Week 1-2**: 
+  - Visual Design: Finalize and review designs for CEO and CTO characters.
+  - Dataset Collection: Curate and finalize datasets for ChatGPT training for CEO and CTO.
+- **Week 3-4**: 
+  - ChatGPT Training: Fine-tune ChatGPT instances for CEO and CTO.
+  - Web Development: Develop the homepage and individual character pages.
+  - Social Media Setup: Create Twitter and Telegram accounts, prepare initial content.
+- **Month 1-2**: 
+  - Launch $GRUMPCEO:
+    - Announce the launch on social media.
+    - Begin daily tweets from Grumpy CEO Cat powered by custom-trained ChatGPT.
+    - Publish the webpage and enable trading on Raydium.
+- **Month 3-4**: 
+  - Launch $GRUMPCTO:
+    - Continue daily engagement with tweets from Grumpy CTO Cat.
+    - Maintain engagement for Grumpy CEO Cat.
+
+---
+
+## Introducing the Grumpy Startup Dream Team!
+
+Welcome to the world of Grumpy Startup Dream Team—where grumpiness meets genius! Meet Margaux, our perpetually grumpy CEO cat, and her band of equally grumpy co-founders who are here to revolutionize the crypto world one frown at a time.
+
+Ever wondered what it takes to run a successful startup? Spoiler alert: it’s not all sunshine and rainbows. Behind every great company is a team of experts with a touch of grumpiness, and we’ve got the grumpiest of them all! Each of our characters brings their unique expertise and a whole lot of grump to the table.
+
+### CEO Cat ($GRUMPCEO)
+Margaux, the boss with a grump. She leads with an iron paw and a sourpuss face, making sure everything is in (dis)order.
+
+### CTO Cat ($GRUMPCTO)
+The tech wizard who's always one bug away from a meltdown. When he’s not coding, he’s complaining about it.
+
+### CFO Cat ($GRUMPCFO)
+The master of the purse strings. She’s great with numbers, but don't ask her to smile about budgets.
+
+### CMO Cat ($GRUMPYCMO)
+The creative mind who’s seen every marketing trend and grumped about them all. She knows how to sell anything, even her grumpiness.
+
+### Dev Cat ($GRUMPDEV)
+The coding genius who's constantly grumpy about deadlines and bugs. His code is flawless, his mood? Not so much.
+
+### HR Cat ($GRUMPYHR)
+The people person who's done with office politics. She’s here to manage the team and grump about the rest.
+
+Together, they form the grumpiest yet most innovative startup team in the crypto world. Follow their grumpy antics, learn from their grudging wisdom, and maybe, just maybe, find a little humor in their endless complaints.
+
+Ready to join the grumpy revolution? Trade $GRUMPCEO, $GRUMPCTO, and more on Raydium and follow the daily grumps on Twitter. Welcome to the Grumpy Startup Dream Team, where every day is a grumpy day!
+
 # MVP 2.0 Function calling: Artist Residencies
 
 This is a huge unlock imo. You can find the code for setting up and running the experiment here: https://github.com/daveebbelaar/langchain-experiments/blob/main/openai-functions/openai_function_calling.py
